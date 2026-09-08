@@ -34,7 +34,7 @@ The following artifacts can be found:
     - **Expected folder:** contains the results expected from running the scripts.
     - **Tests folder:** where the results from the execution of the scripts are stored.
   - **Samples folder**
-    - Sample HAR captures from `grok` to test scripts
+    - Sample HAR captures from `Grok` to test scripts
 - **Code folders**, folders that contain the code for reproducing the experiments:
   - `tpintegration` folder: the Python scripts used to extract and label the third-party domains in the HAR captures.
   - `fingerprint` folder: the Python scripts used to identify JavaScript code related to fingerprinting.

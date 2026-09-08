@@ -50,9 +50,6 @@ HAR_ROOT_PATH = "../data/samples"
 # The location where the results of the analysis will be saved.
 RESULTS_PATH = "../data/results/tests"
 
-# The location where the expected results of the analysis will be saved.
-EXPECTED_PATH = "../data/results/expected"
-
 # The path to the CSV file containing the collected third-party domains.
 COLLECTOR_PATH = os.path.join(RESULTS_PATH, "tp_collector.csv")
 
@@ -60,7 +57,7 @@ COLLECTOR_PATH = os.path.join(RESULTS_PATH, "tp_collector.csv")
 CLASSIFICATION_PATH = os.path.join(RESULTS_PATH, "tp_classification.csv")
 
 # The path to the CSV file containing the manually classified third-party domains.
-LABELED_PATH = os.path.join(EXPECTED_PATH, "tp_labelled.csv")
+LABELED_PATH = os.path.join(RESULTS_PATH, "tp_labelled.csv")
 
 # The path to the final CSV file containing the classified third-party domains.
 FINAL_PATH = os.path.join(RESULTS_PATH, "tp_final.csv")
