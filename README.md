@@ -49,6 +49,8 @@ This code is used to extract and label the third-party domains seen in the har c
 
 It works in two steps, first extract the domains and then label them to attribute them to an organization.
 
+**Execution:**
+
 ```bash
 # Change directory to tpintegration
 cd tpintegration
@@ -62,11 +64,100 @@ python main.py label
 
 TO-DO: transform jupyter notebooks and normalize dependencies
 
+**Execution:**
+
+```bash
+# Change directory to privacyanalysis
+cd privacyanalysis
+```
+
 ### Fingerprint analysis (S-6.2.1 -> JS Fingerprinting Indicators)
+
+The `fingerprint.py` script reads HAR capture files from a folder and detects fingerprinting API usage based on `fp-inspector_apis.txt`. This file contains the apis that only appear in in fingerprinting scripts according to fp-inspector. This are the ones marked with infinity ratio. Source: [FPInspector potentioal fingerprinting apis](https://github.com/uiowa-irl/FP-Inspector/blob/master/Data/potential_fingerprinting_APIs.md). *Disclaimer: the naming in the execution of the test script is different because of folder structure*
+
+The output is a json file containing all the APIs that have been searched for and the captures where it appear. Example:
+
+```json
+{
+ "mozSetImageElement": [],
+    "magnetometer": [
+        "Mistral-Web",
+        "Copilot-Web"
+    ],
+}
+```
+
+mozSetImageElement was not found anywhere, while magnetometer was found in Mistral and Copilot web experiments
+
+**Execution:**
 
 ```bash
 # Change directory to fingerprint
 cd fingerprint
 # Extract the fingerprinting apis used
 python fingerprint.py
+```
+
+## Interaction Artifacts
+
+### Labelling
+
+We labelled our experiments such that each condition they represent can be easily identified.
+
+**Account Status (A)**
+
+| Label | Description |
+|-------|-------------|
+| A1    | Guest (No login) |
+| A2    | Free |
+| A3    | Premium |
+
+**Privacy Mode (P)**
+
+| Label | Description |
+|-------|-------------|
+| P1    | Normal Chat |
+| P2    | Incognito Chat |
+
+**Privacy Settings (T)**
+
+| Label | Description |
+|-------|-------------|
+| T1    | Default Privacy Settings |
+| T2    | Minimum Privacy Settings |
+| T3    | Maximum Privacy Settings |
+
+**Cookie Consent (C)**
+
+| Label | Description |
+|-------|-------------|
+| C0    | No Consent Banner |
+| C1    | Ignore Banner |
+| C2    | Reject Non-Essential Cookies |
+| C3    | Accept Non-Essential Cookies |
+
+**Share (S)**
+
+| Label | Description |
+|-------|-------------|
+| S1    | Chat was not shared |
+| S2    | Chat was shared |
+
+**Interaction Phase (I)**
+
+| Label | Description |
+|-------|-------------|
+| I1    | Regular Interaction |
+| I2    | Load shared chat |
+
+The collected artifacts are organized using the following directory structure:
+
+```
+WEB/
+|-----LLM1/
+|     |-----LLM1-AX-PX-TX-CX-SX-YYYYMMDD/
+|     |     |-----IX
+|     |     |     |-----xxx.har
+|     |     |     |-----ProtocolMonitorxxx.json
+...   ...   ...   ...
 ```
