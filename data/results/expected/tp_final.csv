@@ -1,0 +1,107 @@
+LLM,DOMAINS,ThirdParty_Domain,ThirdParty_CNAME,ACCOUNT,CHAT,PRIVACY,CONSENT,INTERACTION,Organization
+GROK,"grok.com, x.ai",ad.doubleclick.net,,Free,Normal,Default,Accept All,Normal,Google DoubleClick
+GROK,"grok.com, x.ai",ad.doubleclick.net,,Free,Normal,Default,Accept All,Share,Google DoubleClick
+GROK,"grok.com, x.ai",analytics.twitter.com,s.twitter.com,Free,Normal,Default,Accept All,Normal,Twitter Analytics
+GROK,"grok.com, x.ai",analytics.twitter.com,s.twitter.com,Free,Normal,Default,Accept All,Share,Twitter Analytics
+GROK,"grok.com, x.ai",auth.grokipedia.com,,Free,Normal,Default,Accept All,Normal,First-Party
+GROK,"grok.com, x.ai",auth.grokipedia.com,,Free,Normal,Default,Ignore Consent,Normal,First-Party
+GROK,"grok.com, x.ai",auth.grokipedia.com,,Free,Normal,Default,Reject All,Normal,First-Party
+GROK,"grok.com, x.ai",auth.grokusercontent.com,,Free,Normal,Default,Accept All,Normal,First-Party
+GROK,"grok.com, x.ai",auth.grokusercontent.com,,Free,Normal,Default,Ignore Consent,Normal,First-Party
+GROK,"grok.com, x.ai",auth.grokusercontent.com,,Free,Normal,Default,Reject All,Normal,First-Party
+GROK,"grok.com, x.ai",cdn.cookielaw.org,,Free,Normal,Default,Accept All,Normal,OneTrust
+GROK,"grok.com, x.ai",cdn.cookielaw.org,,Free,Normal,Default,Accept All,Share,OneTrust
+GROK,"grok.com, x.ai",cdn.cookielaw.org,,Free,Normal,Default,Ignore Consent,Normal,OneTrust
+GROK,"grok.com, x.ai",cdn.cookielaw.org,,Free,Normal,Default,Ignore Consent,Share,OneTrust
+GROK,"grok.com, x.ai",cdn.cookielaw.org,,Free,Normal,Default,Reject All,Normal,OneTrust
+GROK,"grok.com, x.ai",cdn.cookielaw.org,,Free,Normal,Default,Reject All,Share,OneTrust
+GROK,"grok.com, x.ai",challenges.cloudflare.com,,Free,Normal,Default,Accept All,Normal,First-Party
+GROK,"grok.com, x.ai",challenges.cloudflare.com,,Free,Normal,Default,Ignore Consent,Normal,First-Party
+GROK,"grok.com, x.ai",challenges.cloudflare.com,,Free,Normal,Default,Reject All,Normal,First-Party
+GROK,"grok.com, x.ai",geolocation.onetrust.com,,Free,Normal,Default,Accept All,Normal,OneTrust
+GROK,"grok.com, x.ai",geolocation.onetrust.com,,Free,Normal,Default,Accept All,Share,OneTrust
+GROK,"grok.com, x.ai",geolocation.onetrust.com,,Free,Normal,Default,Ignore Consent,Normal,OneTrust
+GROK,"grok.com, x.ai",geolocation.onetrust.com,,Free,Normal,Default,Ignore Consent,Share,OneTrust
+GROK,"grok.com, x.ai",geolocation.onetrust.com,,Free,Normal,Default,Reject All,Normal,OneTrust
+GROK,"grok.com, x.ai",geolocation.onetrust.com,,Free,Normal,Default,Reject All,Share,OneTrust
+GROK,"grok.com, x.ai",googleads.g.doubleclick.net,,Free,Normal,Default,Accept All,Normal,Google DoubleClick
+GROK,"grok.com, x.ai",googleads.g.doubleclick.net,,Free,Normal,Default,Accept All,Share,Google DoubleClick
+GROK,"grok.com, x.ai",hagen.challenges.cloudflare.com,,Free,Normal,Default,Accept All,Normal,First-Party
+GROK,"grok.com, x.ai",hagen.challenges.cloudflare.com,,Free,Normal,Default,Ignore Consent,Normal,First-Party
+GROK,"grok.com, x.ai",hagen.challenges.cloudflare.com,,Free,Normal,Default,Reject All,Normal,First-Party
+GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Accept All,Normal,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Accept All,Share,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Ignore Consent,Normal,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Reject All,Normal,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Reject All,Share,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,stripecdn.map.fastly.net,Free,Normal,Default,Ignore Consent,Normal,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,stripecdn.map.fastly.net,Free,Normal,Default,Ignore Consent,Share,Stripe
+GROK,"grok.com, x.ai",m.stripe.com,,Free,Normal,Default,Accept All,Normal,Stripe
+GROK,"grok.com, x.ai",m.stripe.com,,Free,Normal,Default,Accept All,Share,Stripe
+GROK,"grok.com, x.ai",m.stripe.com,,Free,Normal,Default,Ignore Consent,Normal,Stripe
+GROK,"grok.com, x.ai",m.stripe.com,,Free,Normal,Default,Ignore Consent,Share,Stripe
+GROK,"grok.com, x.ai",m.stripe.com,,Free,Normal,Default,Reject All,Normal,Stripe
+GROK,"grok.com, x.ai",m.stripe.com,,Free,Normal,Default,Reject All,Share,Stripe
+GROK,"grok.com, x.ai",m.stripe.network,prod-m-tree.stripe.network,Free,Normal,Default,Accept All,Normal,Stripe
+GROK,"grok.com, x.ai",m.stripe.network,prod-m-tree.stripe.network,Free,Normal,Default,Accept All,Share,Stripe
+GROK,"grok.com, x.ai",m.stripe.network,prod-m-tree.stripe.network,Free,Normal,Default,Ignore Consent,Normal,Stripe
+GROK,"grok.com, x.ai",m.stripe.network,prod-m-tree.stripe.network,Free,Normal,Default,Ignore Consent,Share,Stripe
+GROK,"grok.com, x.ai",m.stripe.network,prod-m-tree.stripe.network,Free,Normal,Default,Reject All,Normal,Stripe
+GROK,"grok.com, x.ai",m.stripe.network,prod-m-tree.stripe.network,Free,Normal,Default,Reject All,Share,Stripe
+GROK,"grok.com, x.ai",privacyportal.onetrust.com,,Free,Normal,Default,Accept All,Normal,OneTrust
+GROK,"grok.com, x.ai",privacyportal.onetrust.com,,Free,Normal,Default,Accept All,Share,OneTrust
+GROK,"grok.com, x.ai",privacyportal.onetrust.com,,Free,Normal,Default,Ignore Consent,Normal,OneTrust
+GROK,"grok.com, x.ai",privacyportal.onetrust.com,,Free,Normal,Default,Reject All,Normal,OneTrust
+GROK,"grok.com, x.ai",privacyportal.onetrust.com,,Free,Normal,Default,Reject All,Share,OneTrust
+GROK,"grok.com, x.ai",sgtm-prod-985009374134.us-central1.run.app,,Free,Normal,Default,Accept All,Normal,Google Tag Manager
+GROK,"grok.com, x.ai",sgtm-prod-985009374134.us-central1.run.app,,Free,Normal,Default,Accept All,Share,Google Tag Manager
+GROK,"grok.com, x.ai",stapecdn.com,,Free,Normal,Default,Accept All,Normal,Stape
+GROK,"grok.com, x.ai",stapecdn.com,,Free,Normal,Default,Accept All,Share,Stape
+GROK,"grok.com, x.ai",static.ads-twitter.com,platform.twitter.map.fastly.net,Free,Normal,Default,Accept All,Normal,Twitter Ads
+GROK,"grok.com, x.ai",static.ads-twitter.com,platform.twitter.map.fastly.net,Free,Normal,Default,Accept All,Share,Twitter Ads
+GROK,"grok.com, x.ai",static.cloudflareinsights.com,,Free,Normal,Default,Accept All,Normal,First-Party
+GROK,"grok.com, x.ai",static.cloudflareinsights.com,,Free,Normal,Default,Accept All,Share,First-Party
+GROK,"grok.com, x.ai",static.cloudflareinsights.com,,Free,Normal,Default,Ignore Consent,Normal,First-Party
+GROK,"grok.com, x.ai",static.cloudflareinsights.com,,Free,Normal,Default,Ignore Consent,Share,First-Party
+GROK,"grok.com, x.ai",static.cloudflareinsights.com,,Free,Normal,Default,Reject All,Normal,First-Party
+GROK,"grok.com, x.ai",static.cloudflareinsights.com,,Free,Normal,Default,Reject All,Share,First-Party
+GROK,"grok.com, x.ai",t.co,,Free,Normal,Default,Accept All,Normal,First-Party
+GROK,"grok.com, x.ai",t.co,,Free,Normal,Default,Accept All,Share,First-Party
+GROK,"grok.com, x.ai",t0.gstatic.com,,Free,Normal,Default,Ignore Consent,Normal,Google Cloud
+GROK,"grok.com, x.ai",t0.gstatic.com,,Free,Normal,Default,Reject All,Share,Google Cloud
+GROK,"grok.com, x.ai",t1.gstatic.com,,Free,Normal,Default,Accept All,Normal,Google Cloud
+GROK,"grok.com, x.ai",t1.gstatic.com,,Free,Normal,Default,Accept All,Share,Google Cloud
+GROK,"grok.com, x.ai",t1.gstatic.com,,Free,Normal,Default,Ignore Consent,Normal,Google Cloud
+GROK,"grok.com, x.ai",t1.gstatic.com,,Free,Normal,Default,Ignore Consent,Share,Google Cloud
+GROK,"grok.com, x.ai",t1.gstatic.com,,Free,Normal,Default,Reject All,Normal,Google Cloud
+GROK,"grok.com, x.ai",t2.gstatic.com,,Free,Normal,Default,Accept All,Normal,Google Cloud
+GROK,"grok.com, x.ai",t2.gstatic.com,,Free,Normal,Default,Accept All,Share,Google Cloud
+GROK,"grok.com, x.ai",t2.gstatic.com,,Free,Normal,Default,Ignore Consent,Normal,Google Cloud
+GROK,"grok.com, x.ai",t2.gstatic.com,,Free,Normal,Default,Ignore Consent,Share,Google Cloud
+GROK,"grok.com, x.ai",t2.gstatic.com,,Free,Normal,Default,Reject All,Normal,Google Cloud
+GROK,"grok.com, x.ai",t2.gstatic.com,,Free,Normal,Default,Reject All,Share,Google Cloud
+GROK,"grok.com, x.ai",t3.gstatic.com,,Free,Normal,Default,Accept All,Normal,Google Cloud
+GROK,"grok.com, x.ai",t3.gstatic.com,,Free,Normal,Default,Accept All,Share,Google Cloud
+GROK,"grok.com, x.ai",t3.gstatic.com,,Free,Normal,Default,Ignore Consent,Normal,Google Cloud
+GROK,"grok.com, x.ai",t3.gstatic.com,,Free,Normal,Default,Reject All,Share,Google Cloud
+GROK,"grok.com, x.ai",wa.appsflyersdk.com,d3qc5sduy8cmwp.cloudfront.net,Free,Normal,Default,Accept All,Normal,AppsFlyer
+GROK,"grok.com, x.ai",wa.appsflyersdk.com,d3qc5sduy8cmwp.cloudfront.net,Free,Normal,Default,Accept All,Share,AppsFlyer
+GROK,"grok.com, x.ai",wa.onelink.me,,Free,Normal,Default,Accept All,Normal,AppsFlyer
+GROK,"grok.com, x.ai",wa.onelink.me,,Free,Normal,Default,Accept All,Share,AppsFlyer
+GROK,"grok.com, x.ai",websdk.appsflyersdk.com,dbo0t3pcsxcel.cloudfront.net,Free,Normal,Default,Accept All,Normal,AppsFlyer
+GROK,"grok.com, x.ai",websdk.appsflyersdk.com,dbo0t3pcsxcel.cloudfront.net,Free,Normal,Default,Accept All,Share,AppsFlyer
+GROK,"grok.com, x.ai",www.google.com,,Free,Normal,Default,Accept All,Normal,Google Search
+GROK,"grok.com, x.ai",www.google.com,,Free,Normal,Default,Accept All,Share,Google Search
+GROK,"grok.com, x.ai",www.google.com,,Free,Normal,Default,Ignore Consent,Normal,Google Search
+GROK,"grok.com, x.ai",www.google.com,,Free,Normal,Default,Ignore Consent,Share,Google Search
+GROK,"grok.com, x.ai",www.google.com,,Free,Normal,Default,Reject All,Normal,Google Search
+GROK,"grok.com, x.ai",www.google.com,,Free,Normal,Default,Reject All,Share,Google Search
+GROK,"grok.com, x.ai",www.google.pt,,Free,Normal,Default,Accept All,Normal,Google Search
+GROK,"grok.com, x.ai",www.google.pt,,Free,Normal,Default,Accept All,Share,Google Search
+GROK,"grok.com, x.ai",www.googleadservices.com,,Free,Normal,Default,Accept All,Normal,Google Ads
+GROK,"grok.com, x.ai",www.googletagmanager.com,,Free,Normal,Default,Accept All,Normal,Google Tag Manager
+GROK,"grok.com, x.ai",www.googletagmanager.com,,Free,Normal,Default,Accept All,Share,Google Tag Manager
+GROK,"grok.com, x.ai",www.googletagmanager.com,,Free,Normal,Default,Ignore Consent,Normal,Google Tag Manager
+GROK,"grok.com, x.ai",www.googletagmanager.com,,Free,Normal,Default,Ignore Consent,Share,Google Tag Manager
+GROK,"grok.com, x.ai",www.googletagmanager.com,,Free,Normal,Default,Reject All,Normal,Google Tag Manager
+GROK,"grok.com, x.ai",www.googletagmanager.com,,Free,Normal,Default,Reject All,Share,Google Tag Manager

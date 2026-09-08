@@ -1,0 +1,31 @@
+LLM,ThirdParty_Domain,ThirdParty_CNAME,Organization
+GROK,ad.doubleclick.net,,Google DoubleClick
+GROK,analytics.twitter.com,s.twitter.com,Twitter Analytics
+GROK,auth.grokipedia.com,,First-Party
+GROK,auth.grokusercontent.com,,First-Party
+GROK,cdn.cookielaw.org,,OneTrust
+GROK,challenges.cloudflare.com,,First-Party
+GROK,geolocation.onetrust.com,,OneTrust
+GROK,googleads.g.doubleclick.net,,Google DoubleClick
+GROK,hagen.challenges.cloudflare.com,,First-Party
+GROK,js.stripe.com,dexeqbeb7giwr.cloudfront.net,Stripe
+GROK,js.stripe.com,stripecdn.map.fastly.net,Stripe
+GROK,m.stripe.com,,Stripe
+GROK,m.stripe.network,prod-m-tree.stripe.network,Stripe
+GROK,privacyportal.onetrust.com,,OneTrust
+GROK,sgtm-prod-985009374134.us-central1.run.app,,Google Tag Manager
+GROK,stapecdn.com,,Stape
+GROK,static.ads-twitter.com,platform.twitter.map.fastly.net,Twitter Ads
+GROK,static.cloudflareinsights.com,,First-Party
+GROK,t.co,,First-Party
+GROK,t0.gstatic.com,,Google Cloud
+GROK,t1.gstatic.com,,Google Cloud
+GROK,t2.gstatic.com,,Google Cloud
+GROK,t3.gstatic.com,,Google Cloud
+GROK,wa.appsflyersdk.com,d3qc5sduy8cmwp.cloudfront.net,AppsFlyer
+GROK,wa.onelink.me,,AppsFlyer
+GROK,websdk.appsflyersdk.com,dbo0t3pcsxcel.cloudfront.net,AppsFlyer
+GROK,www.google.com,,Google Search
+GROK,www.google.pt,,Google Search
+GROK,www.googleadservices.com,,Google Ads
+GROK,www.googletagmanager.com,,Google Tag Manager
