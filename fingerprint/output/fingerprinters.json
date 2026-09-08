@@ -1,0 +1,102 @@
+{
+    "onpointerleave": [
+        "Chatgpt-Web",
+        "Grok-Web",
+        "Deepseek-Web",
+        "Claude-Web",
+        "Meta-Web",
+        "Perplexity-Web",
+        "Mistral-Web",
+        "Copilot-Web"
+    ],
+    "StereoPannerNode": [
+        "Mistral-Web"
+    ],
+    "FontFaceSetLoadEvent": [
+        "Mistral-Web"
+    ],
+    "PresentationConnectionAvailableEvent": [],
+    "MediaDeviceInfo": [
+        "Mistral-Web"
+    ],
+    "msGetRegionContent": [],
+    "peerIdentity": [
+        "Mistral-Web"
+    ],
+    "MSManipulationEvent": [],
+    "VideoStreamTrack": [
+        "Perplexity-Web"
+    ],
+    "mozSetImageElement": [],
+    "magnetometer": [
+        "Mistral-Web",
+        "Copilot-Web"
+    ],
+    "requestWakeLock": [],
+    "PresentationRequest": [
+        "Mistral-Web"
+    ],
+    "audioWorklet": [
+        "Chatgpt-Web",
+        "Grok-Web",
+        "Claude-Web",
+        "Meta-Web",
+        "Perplexity-Web",
+        "Mistral-Web",
+        "Copilot-Web"
+    ],
+    "onwebkitanimationiteration": [
+        "Mistral-Web",
+        "Copilot-Web"
+    ],
+    "onpointerenter": [
+        "Chatgpt-Web",
+        "Grok-Web",
+        "Deepseek-Web",
+        "Claude-Web",
+        "Meta-Web",
+        "Perplexity-Web",
+        "Mistral-Web",
+        "Copilot-Web"
+    ],
+    "onwebkitanimationstart": [
+        "Mistral-Web",
+        "Gemini-Web",
+        "Copilot-Web"
+    ],
+    "onlostpointercapture": [
+        "Chatgpt-Web",
+        "Deepseek-Web",
+        "Claude-Web",
+        "Perplexity-Web",
+        "Mistral-Web",
+        "Copilot-Web"
+    ],
+    "RTCCertificate": [
+        "Mistral-Web"
+    ],
+    "PresentationConnectionList": [],
+    "onMSVideoOptimalLayoutChanged": [],
+    "PresentationAvailability": [],
+    "BaseAudioContext": [
+        "Mistral-Web",
+        "Gemini-Web"
+    ],
+    "activeVRDisplays": [],
+    "BluetoothRemoteGATTCharacteristic": [],
+    "VisualViewport": [
+        "Chatgpt-Web",
+        "Grok-Web",
+        "Deepseek-Web",
+        "Claude-Web",
+        "Meta-Web",
+        "Gemini-Web",
+        "Perplexity-Web",
+        "Mistral-Web",
+        "Copilot-Web"
+    ],
+    "PresentationConnection": [],
+    "onMSVideoFormatChanged": [],
+    "onMSVideoFrameStepCompleted": [],
+    "BluetoothDevice": []
+}

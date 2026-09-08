@@ -1,0 +1,1061 @@
+first_party_name,first_party,device,third_party,third_party_name,Tracking/Other,Category,consent,subscription
+ChatGPT,"chatgpt.com, openai.com",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,auth-cdn.oaistatic.com,First-party,Cloud/CDN,,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,auth-cdn.oaistatic.com,First-party,Cloud/CDN,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,auth.openai.com.cdn.cloudflare.net,First-party,Cloud/CDN,,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,auth.openai.com.cdn.cloudflare.net,First-party,Cloud/CDN,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,browser-intake-datadoghq.com,Datadog,Tracking,,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,browser-intake-datadoghq.com,Datadog,Tracking,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,cdn.auth0.com,Auth0 Inc.,Tracking,Authentication,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,cdn.auth0.com,Auth0 Inc.,Tracking,Authentication,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,fonts.gstatic.com,Google API,,,Accept All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,fonts.gstatic.com,Google API,,,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,fonts.gstatic.com,Google API,,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,openaiassets.azureedge.net,Microsoft Azure,Cloud/CDN,,Accept All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,openaiassets.azureedge.net,Microsoft Azure,Cloud/CDN,,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,openaiassets.azureedge.net,Microsoft Azure,Cloud/CDN,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,play.google.com,Other,,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,sentinel.openai.com.cdn.cloudflare.net,First-party,,,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,sentinel.openai.com.cdn.cloudflare.net,First-party,,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,t0.gstatic.com,Google Cloud,,,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,t0.gstatic.com,Google Cloud,,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,t1.gstatic.com,Google Cloud,,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,t2.gstatic.com,Google Cloud,,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,t3.gstatic.com,Google Cloud,,,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,t3.gstatic.com,Google Cloud,,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,www.gstatic.com,Google Cloud,,,Accept All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.gstatic.com,Google Cloud,,,Accept All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,www.gstatic.com,Google Cloud,,,Accept All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Ignore Consent,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,fonts.gstatic.com,Google API,,,Ignore Consent,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,openaiassets.azureedge.net,Microsoft Azure,Cloud/CDN,,Ignore Consent,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,play.google.com,Other,,,Ignore Consent,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.gstatic.com,Google Cloud,,,Ignore Consent,No Auth
+ChatGPT,"chatgpt.com, openai.com",mobile,android.chat.openai.com.cdn.cloudflare.net,First-party,Cloud/CDN,,No consent banner,No Auth
+ChatGPT,"chatgpt.com, openai.com",mobile,android.chat.openai.com.cdn.cloudflare.net,First-party,Cloud/CDN,,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,android.chat.openai.com.cdn.cloudflare.net,First-party,Cloud/CDN,,No consent banner,Premium
+ChatGPT,"chatgpt.com, openai.com",mobile,api.revenuecat.com,RevenueCat,Tracking,In-app Payments,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,api.revenuecat.com,RevenueCat,Tracking,In-app Payments,No consent banner,Premium
+ChatGPT,"chatgpt.com, openai.com",mobile,auth.openai.com.cdn.cloudflare.net,First-party,Cloud/CDN,,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,auth.openai.com.cdn.cloudflare.net,First-party,Cloud/CDN,,No consent banner,Premium
+ChatGPT,"chatgpt.com, openai.com",mobile,browser-intake-datadoghq.com,Datadog,Tracking,,No consent banner,No Auth
+ChatGPT,"chatgpt.com, openai.com",mobile,browser-intake-datadoghq.com,Datadog,Tracking,,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,browser-intake-datadoghq.com,Datadog,Tracking,,No consent banner,Premium
+ChatGPT,"chatgpt.com, openai.com",mobile,cdn.auth0.com,Auth0 Inc.,Tracking,Authentication,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,cdn.auth0.com,Auth0 Inc.,Tracking,Authentication,No consent banner,Premium
+ChatGPT,"chatgpt.com, openai.com",mobile,cloudflare-dns.com,First-party,,,No consent banner,No Auth
+ChatGPT,"chatgpt.com, openai.com",mobile,cloudflare-dns.com,First-party,,,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,cloudflare-dns.com,First-party,,,No consent banner,Premium
+ChatGPT,"chatgpt.com, openai.com",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+ChatGPT,"chatgpt.com, openai.com",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+ChatGPT,"chatgpt.com, openai.com",mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+ChatGPT,"chatgpt.com, openai.com",mobile,irp.cdn-website.com,Intercom,Tracking,Authentication,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,o33249.ingest.sentry.io,Sentry,Tracking,Analytics and Advertising,No consent banner,No Auth
+ChatGPT,"chatgpt.com, openai.com",mobile,o33249.ingest.sentry.io,Sentry,Tracking,Analytics and Advertising,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,o33249.ingest.sentry.io,Sentry,Tracking,Analytics and Advertising,No consent banner,Premium
+ChatGPT,"chatgpt.com, openai.com",mobile,persistent.oaistatic.com,First-party,,,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",mobile,t2.gstatic.com,Google Cloud,,,No consent banner,No Auth
+ChatGPT,"chatgpt.com, openai.com",mobile,t2.gstatic.com,Google Cloud,,,No consent banner,Free
+ChatGPT,"chatgpt.com, openai.com",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Reject All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,auth-cdn.oaistatic.com,First-party,Cloud/CDN,,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,auth-cdn.oaistatic.com,First-party,Cloud/CDN,,Reject All,Premium
+ChatGPT,anakytics.tw,browser,auth.openai.com.cdn.cloudflare.net,First-party,Cloud/CDN,,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,auth.openai.com.cdn.cloudflare.net,First-party,Cloud/CDN,,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,browser-intake-datadoghq.com,Datadog,Tracking,,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,browser-intake-datadoghq.com,Datadog,Tracking,,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,cdn.auth0.com,Auth0 Inc.,Tracking,Authentication,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,cdn.auth0.com,Auth0 Inc.,Tracking,Authentication,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,fonts.gstatic.com,Google API,,,Reject All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,fonts.gstatic.com,Google API,,,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,fonts.gstatic.com,Google API,,,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,openaiassets.azureedge.net,Microsoft Azure,Cloud/CDN,,Reject All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,openaiassets.azureedge.net,Microsoft Azure,Cloud/CDN,,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,openaiassets.azureedge.net,Microsoft Azure,Cloud/CDN,,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,play.google.com,Other,,,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,sentinel.openai.com.cdn.cloudflare.net,First-party,,,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,sentinel.openai.com.cdn.cloudflare.net,First-party,,,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Premium
+ChatGPT,"chatgpt.com, openai.com",browser,www.gstatic.com,Google Cloud,,,Reject All,No Auth
+ChatGPT,"chatgpt.com, openai.com",browser,www.gstatic.com,Google Cloud,,,Reject All,Free
+ChatGPT,"chatgpt.com, openai.com",browser,www.gstatic.com,Google Cloud,,,Reject All,Premium
+Claude,"anthropic.com, claude.ai",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,api-iam.intercom.io,Intercom,Tracking,Authentication,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,b-0.hexagon-cdn.com,Sift,Tracking,Anti-fraud,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,b-0.hexagon-cdn.com,Sift,Tracking,Anti-fraud,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,browser-intake-us5-datadoghq.com,Datadog,Tracking,,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,browser-intake-us5-datadoghq.com,Datadog,Tracking,,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,connect.facebook.net,Meta,Tracking,Analytics and Advertising,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,connect.facebook.net,Meta,Tracking,Analytics and Advertising,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,d8f2pm4haz8u1.cloudfront.net,First-party,Claude/CDN,,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,d8f2pm4haz8u1.cloudfront.net,First-party,Claude/CDN,,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,fonts.gstatic.com,Google API,,,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,fonts.gstatic.com,Google API,,,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,js.intercomcdn.com,Intercom,Tracking,Authentication,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,nexus-websocket-a.intercom.io,Intercom,Tracking,Authentication,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,play.google.com,Other,,,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,widget.intercom.io,Intercom,Tracking,Customer Support,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,www.gstatic.com,Google Cloud,,,Accept All,Free
+Claude,"anthropic.com, claude.ai",browser,www.gstatic.com,Google Cloud,,,Accept All,Premium
+Claude,"anthropic.com, claude.ai",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Ignore Consent,Free
+Claude,"anthropic.com, claude.ai",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",browser,b-0.hexagon-cdn.com,Sift,Tracking,Anti-fraud,Ignore Consent,Free
+Claude,"anthropic.com, claude.ai",browser,b-0.hexagon-cdn.com,Sift,Tracking,Anti-fraud,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",browser,d8f2pm4haz8u1.cloudfront.net,First-party,Claude/CDN,,Ignore Consent,Free
+Claude,"anthropic.com, claude.ai",browser,d8f2pm4haz8u1.cloudfront.net,First-party,Claude/CDN,,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",browser,fonts.gstatic.com,Google API,,,Ignore Consent,Free
+Claude,"anthropic.com, claude.ai",browser,fonts.gstatic.com,Google API,,,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Free
+Claude,"anthropic.com, claude.ai",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",browser,play.google.com,Other,,,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,Free
+Claude,"anthropic.com, claude.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Free
+Claude,"anthropic.com, claude.ai",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,Free
+Claude,"anthropic.com, claude.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",browser,www.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Claude,"anthropic.com, claude.ai",browser,www.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Claude,"anthropic.com, claude.ai",mobile,api.segment.io,Twilio Segment,Tracking,Analytics and Advertising,No consent banner,Free
+Claude,"anthropic.com, claude.ai",mobile,api.segment.io,Twilio Segment,Tracking,Analytics and Advertising,No consent banner,Free
+Claude,"anthropic.com, claude.ai",mobile,api.segment.io,Twilio Segment,Tracking,Analytics and Advertising,No consent banner,Premium
+Claude,"anthropic.com, claude.ai",mobile,api3.siftscience.com,Sift Science,Tracking,Anti-fraud,No consent banner,Free
+Claude,"anthropic.com, claude.ai",mobile,api3.siftscience.com,Sift Science,Tracking,Anti-fraud,No consent banner,Free
+Claude,"anthropic.com, claude.ai",mobile,api3.siftscience.com,Sift Science,Tracking,Anti-fraud,No consent banner,Premium
+Claude,"anthropic.com, claude.ai",mobile,browser-intake-us5-datadoghq.com,Datadog,Tracking,,No consent banner,Free
+Claude,"anthropic.com, claude.ai",mobile,browser-intake-us5-datadoghq.com,Datadog,Tracking,,No consent banner,Free
+Claude,"anthropic.com, claude.ai",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Claude,"anthropic.com, claude.ai",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Claude,"anthropic.com, claude.ai",mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Claude,"anthropic.com, claude.ai",mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Claude,"anthropic.com, claude.ai",mobile,o1158394.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,No consent banner,Free
+Claude,"anthropic.com, claude.ai",mobile,o1158394.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,No consent banner,Free
+Claude,"anthropic.com, claude.ai",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Reject All,Free
+Claude,"anthropic.com, claude.ai",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Reject All,Premium
+Claude,"anthropic.com, claude.ai",browser,b-0.hexagon-cdn.com,Sift,Tracking,Anti-fraud,Reject All,Free
+Claude,"anthropic.com, claude.ai",browser,b-0.hexagon-cdn.com,Sift,Tracking,Anti-fraud,Reject All,Premium
+Claude,"anthropic.com, claude.ai",browser,d8f2pm4haz8u1.cloudfront.net,First-party,Claude/CDN,,Reject All,Free
+Claude,"anthropic.com, claude.ai",browser,d8f2pm4haz8u1.cloudfront.net,First-party,Claude/CDN,,Reject All,Premium
+Claude,"anthropic.com, claude.ai",browser,fonts.gstatic.com,Google API,,,Reject All,Free
+Claude,"anthropic.com, claude.ai",browser,fonts.gstatic.com,Google API,,,Reject All,Premium
+Claude,"anthropic.com, claude.ai",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+Claude,"anthropic.com, claude.ai",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Premium
+Claude,"anthropic.com, claude.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Free
+Claude,"anthropic.com, claude.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Premium
+Claude,"anthropic.com, claude.ai",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+Claude,"anthropic.com, claude.ai",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Premium
+Claude,"anthropic.com, claude.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Free
+Claude,"anthropic.com, claude.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Premium
+Claude,"anthropic.com, claude.ai",browser,www.gstatic.com,Google Cloud,,,Reject All,Free
+Claude,"anthropic.com, claude.ai",browser,www.gstatic.com,Google Cloud,,,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,aadcdn.msauth.net,First-party,Tracking,Authentication,Accept All,Free
+Copilot,copilot.microsoft.com,browser,aadcdn.msftauth.net,First-party,Tracking,Authentication,Accept All,Free
+Copilot,copilot.microsoft.com,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,accounts.google.es,Google Accounts,Tracking,Authentication,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,accounts.youtube.com,Google Accounts,Tracking,Authentication,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,api.sprig.com,Sprig,Tracking,User engagement,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,api.sprig.com,Sprig,Tracking,User engagement,Accept All,Free
+Copilot,copilot.microsoft.com,browser,api.sprig.com,Sprig,Tracking,User engagement,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,auth.copilot.microsoft.com,Microsoft,First-party,,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,bat.bing.com,First-party,Tracking,Analytics and Advertising,Accept All,Free
+Copilot,copilot.microsoft.com,browser,bat.bing.com,First-party,Tracking,Analytics and Advertising,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,bat.bing.net,First-party,Tracking,Analytics and Advertising,Accept All,Free
+Copilot,copilot.microsoft.com,browser,bat.bing.net,First-party,Tracking,Analytics and Advertising,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,browser.events.data.microsoft.com,First-party,Tracking,Analytics and Advertising,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,browser.events.data.microsoft.com,First-party,Tracking,Analytics and Advertising,Accept All,Free
+Copilot,copilot.microsoft.com,browser,browser.events.data.microsoft.com,First-party,Tracking,Analytics and Advertising,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,c.bing.com,First-party,Tracking,Analytics and Advertising,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,c.bing.com,First-party,Tracking,Analytics and Advertising,Accept All,Free
+Copilot,copilot.microsoft.com,browser,c.bing.com,First-party,Tracking,Analytics and Advertising,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,cdn.sprig.com,Sprig,Tracking,User engagement,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,cdn.sprig.com,Sprig,Tracking,User engagement,Accept All,Free
+Copilot,copilot.microsoft.com,browser,cdn.sprig.com,Sprig,Tracking,User engagement,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,challenges.cloudflare.com,First-party,Anti-bot,,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,challenges.cloudflare.com,First-party,Anti-bot,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,config.edge.skype.com,First-party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,content.lifecycle.office.net,First-party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,copilot.fun,First-party,,,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,copilot.fun,First-party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,copilot.fun,First-party,,,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,copilot.microsoft.com,First-party,,,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,copilot.microsoft.com,First-party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,copilot.microsoft.com,First-party,,,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,df.cfp.microsoft.com,First-party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,eu-mobile.events.data.microsoft.com,First-party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,fonts.gstatic.com,Google API,,,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,fonts.gstatic.com,Google API,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,fonts.gstatic.com,Google API,,,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,fpt.live.com,First-party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,graph.microsoft.com,First-party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,lh3.googleusercontent.com,Google User Content,Tracking,CMP,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,login.live.com,First-party,Tracking,Authentication,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,login.live.com,First-party,Tracking,Authentication,Accept All,Free
+Copilot,copilot.microsoft.com,browser,login.live.com,First-party,Tracking,Authentication,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,login.microsoftonline.com,First-party,Tracking,Authentication,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,login.microsoftonline.com,First-party,Tracking,Authentication,Accept All,Free
+Copilot,copilot.microsoft.com,browser,login.microsoftonline.com,First-party,Tracking,Authentication,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,logincdn.msftauth.net,First-party,Tracking,Authentication,Accept All,Free
+Copilot,copilot.microsoft.com,browser,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,Accept All,Free
+Copilot,copilot.microsoft.com,browser,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+Copilot,copilot.microsoft.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,play.google.com,Other,,,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,play.google.com,Other,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,play.google.com,Other,,,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,services.bingapis.com,First-party,,,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,services.bingapis.com,First-party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,services.bingapis.com,First-party,,,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,ts1.mm.bing.net,First-Party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,ts2.mm.bing.net,First-Party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,ts3.mm.bing.net,First-Party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,ts4.explicit.bing.net,First-Party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,ts4.mm.bing.net,First-Party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,wps-picasso-prod-neu.webpubsub.azure.com,First-Party,Cloud/CDN,,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,wps-picasso-prod-neu.webpubsub.azure.com,First-Party,Cloud/CDN,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,wps-picasso-prod-neu.webpubsub.azure.com,First-Party,Cloud/CDN,,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,www.bing.com,First-Party,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+Copilot,copilot.microsoft.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+Copilot,copilot.microsoft.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Free
+Copilot,copilot.microsoft.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,www.gstatic.com,Google Cloud,,,Accept All,No Auth
+Copilot,copilot.microsoft.com,browser,www.gstatic.com,Google Cloud,,,Accept All,Free
+Copilot,copilot.microsoft.com,browser,www.gstatic.com,Google Cloud,,,Accept All,Premium
+Copilot,copilot.microsoft.com,browser,aadcdn.msauth.net,First-party,Tracking,Authentication,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,accounts.google.es,Google Accounts,Tracking,Authentication,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,accounts.youtube.com,Google Accounts,Tracking,Authentication,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,api.sprig.com,Sprig,Tracking,User engagement,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,api.sprig.com,Sprig,Tracking,User engagement,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,api.sprig.com,Sprig,Tracking,User engagement,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,auth.copilot.microsoft.com,Microsoft,First-party,,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,browser.events.data.microsoft.com,First-party,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,browser.events.data.microsoft.com,First-party,Tracking,Analytics and Advertising,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,browser.events.data.microsoft.com,First-party,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,cdn.sprig.com,Sprig,Tracking,User engagement,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,cdn.sprig.com,Sprig,Tracking,User engagement,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,cdn.sprig.com,Sprig,Tracking,User engagement,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,challenges.cloudflare.com,First-party,Anti-bot,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,copilot.fun,First-party,,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,copilot.fun,First-party,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,copilot.fun,First-party,,,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,copilot.microsoft.com,First-party,,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,copilot.microsoft.com,First-party,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,copilot.microsoft.com,First-party,,,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,df.cfp.microsoft.com,First-party,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,eu-mobile.events.data.microsoft.com,First-party,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,fonts.gstatic.com,Google API,,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,fonts.gstatic.com,Google API,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,fonts.gstatic.com,Google API,,,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,fpt.live.com,First-party,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,graph.microsoft.com,First-party,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,lh3.googleusercontent.com,Google User Content,Tracking,CMP,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,login.live.com,First-party,Tracking,Authentication,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,login.live.com,First-party,Tracking,Authentication,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,login.live.com,First-party,Tracking,Authentication,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,login.microsoftonline.com,First-party,Tracking,Authentication,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,login.microsoftonline.com,First-party,Tracking,Authentication,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,login.microsoftonline.com,First-party,Tracking,Authentication,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,logincdn.msftauth.net,First-party,Tracking,Authentication,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,play.google.com,Other,,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,play.google.com,Other,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,play.google.com,Other,,,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,services.bingapis.com,First-party,,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,services.bingapis.com,First-party,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,services.bingapis.com,First-party,,,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,ts1.mm.bing.net,First-Party,,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,ts3.mm.bing.net,First-Party,,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,ts4.mm.bing.net,First-Party,,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,wps-picasso-prod-neu.webpubsub.azure.com,First-Party,Cloud/CDN,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,wps-picasso-prod-neu.webpubsub.azure.com,First-Party,Cloud/CDN,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,wps-picasso-prod-neu.webpubsub.azure.com,First-Party,Cloud/CDN,,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,browser,www.gstatic.com,Google Cloud,,,Ignore Consent,No Auth
+Copilot,copilot.microsoft.com,browser,www.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Copilot,copilot.microsoft.com,browser,www.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Copilot,copilot.microsoft.com,mobile,app.adjust.com,Adjust,Tracking,Tracking,No consent banner,No Auth
+Copilot,copilot.microsoft.com,mobile,app.adjust.com,Adjust,Tracking,Tracking,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,auth.copilot.microsoft.com,Microsoft,First-party,,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,copilot.microsoft.com,First-party,,,No consent banner,No Auth
+Copilot,copilot.microsoft.com,mobile,copilot.microsoft.com,First-party,,,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Copilot,copilot.microsoft.com,mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Copilot,copilot.microsoft.com,mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,in.appcenter.ms,First-party,,,No consent banner,No Auth
+Copilot,copilot.microsoft.com,mobile,in.appcenter.ms,First-party,,,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,login.microsoftonline.com,First-party,Tracking,Authentication,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,mobile.events.data.microsoft.com,First-party,,,No consent banner,No Auth
+Copilot,copilot.microsoft.com,mobile,mobile.events.data.microsoft.com,First-party,,,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,No consent banner,No Auth
+Copilot,copilot.microsoft.com,mobile,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,oneclient.sfx.ms,First-party,,,No consent banner,No Auth
+Copilot,copilot.microsoft.com,mobile,oneclient.sfx.ms,First-party,,,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,substrate.office.com,First-Party,,,No consent banner,Free
+Copilot,copilot.microsoft.com,mobile,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,No consent banner,Premium
+Copilot,copilot.microsoft.com,mobile,firebaseinstallations.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,Premium
+Copilot,copilot.microsoft.com,mobile,copilot.microsoft.com,First-Party,,,No consent banner,Premium
+Copilot,copilot.microsoft.com,mobile,oneclient.sfx.ms,First-Party,,,No consent banner,Premium
+Copilot,copilot.microsoft.com,mobile,mobile.events.data.microsoft.com,First-Party,,,No consent banner,Premium
+Copilot,copilot.microsoft.com,mobile,in.appcenter.ms,First-Party,,,No consent banner,Premium
+Copilot,,mobile,app.adjust.com,Adjust,Tracking,Tracking,No consent banner,Premium
+Copilot,copilot.microsoft.com,mobile,firebaselogging.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,Premium
+Copilot,copilot.microsoft.com,mobile,auth.copilot.microsoft.com,First-Party,,,No consent banner,Premium
+Copilot,copilot.microsoft.com,mobile,login.microsoftonline.com,First-Party,,,No consent banner,Premium
+Copilot,copilot.microsoft.com,mobile,substrate.office.com,First-Party,,,No consent banner,Premium
+Copilot,copilot.microsoft.com,browser,aadcdn.msauth.net,First-party,Tracking,Authentication,Reject All,Free
+Copilot,copilot.microsoft.com,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,accounts.google.es,Google Accounts,Tracking,Authentication,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,accounts.youtube.com,Google Accounts,Tracking,Authentication,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,api.sprig.com,Sprig,Tracking,User engagement,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,api.sprig.com,Sprig,Tracking,User engagement,Reject All,Free
+Copilot,copilot.microsoft.com,browser,api.sprig.com,Sprig,Tracking,User engagement,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,auth.copilot.microsoft.com,Microsoft,First-party,,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,browser.events.data.microsoft.com,First-party,Tracking,Analytics and Advertising,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,browser.events.data.microsoft.com,First-party,Tracking,Analytics and Advertising,Reject All,Free
+Copilot,copilot.microsoft.com,browser,browser.events.data.microsoft.com,First-party,Tracking,Analytics and Advertising,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,cdn.sprig.com,Sprig,Tracking,User engagement,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,cdn.sprig.com,Sprig,Tracking,User engagement,Reject All,Free
+Copilot,copilot.microsoft.com,browser,cdn.sprig.com,Sprig,Tracking,User engagement,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,challenges.cloudflare.com,First-party,Anti-bot,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,copilot.fun,First-party,,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,copilot.fun,First-party,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,copilot.fun,First-party,,,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,copilot.microsoft.com,First-party,,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,copilot.microsoft.com,First-party,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,copilot.microsoft.com,First-party,,,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,df.cfp.microsoft.com,First-party,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,eu-mobile.events.data.microsoft.com,First-party,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,fonts.gstatic.com,Google API,,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,fonts.gstatic.com,Google API,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,fonts.gstatic.com,Google API,,,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,fpt.live.com,First-party,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,graph.microsoft.com,First-party,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,lh3.googleusercontent.com,Google User Content,Tracking,CMP,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,login.live.com,First-party,Tracking,Authentication,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,login.live.com,First-party,Tracking,Authentication,Reject All,Free
+Copilot,copilot.microsoft.com,browser,login.live.com,First-party,Tracking,Authentication,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,login.microsoftonline.com,First-party,Tracking,Authentication,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,login.microsoftonline.com,First-party,Tracking,Authentication,Reject All,Free
+Copilot,copilot.microsoft.com,browser,login.microsoftonline.com,First-party,Tracking,Authentication,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,logincdn.msftauth.net,First-party,Tracking,Authentication,Reject All,Free
+Copilot,copilot.microsoft.com,browser,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,Reject All,Free
+Copilot,copilot.microsoft.com,browser,o4508134825000960.ingest.us.sentry.io,Sentry,Tracking,Analytics and Advertising,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+Copilot,copilot.microsoft.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,play.google.com,Other,,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,play.google.com,Other,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,play.google.com,Other,,,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,services.bingapis.com,First-party,,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,services.bingapis.com,First-party,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,services.bingapis.com,First-party,,,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,ts1.mm.bing.net,First-Party,,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,wps-picasso-prod-eus2.webpubsub.azure.com,First-Party,Cloud/CDN,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,wps-picasso-prod-neu.webpubsub.azure.com,First-Party,Cloud/CDN,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,wps-picasso-prod-neu.webpubsub.azure.com,First-Party,Cloud/CDN,,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Free
+Copilot,copilot.microsoft.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+Copilot,copilot.microsoft.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Free
+Copilot,copilot.microsoft.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Premium
+Copilot,copilot.microsoft.com,browser,www.gstatic.com,Google Cloud,,,Reject All,No Auth
+Copilot,copilot.microsoft.com,browser,www.gstatic.com,Google Cloud,,,Reject All,Free
+Copilot,copilot.microsoft.com,browser,www.gstatic.com,Google Cloud,,,Reject All,Premium
+DeepSeek,"deepseek.com, high-flyer.cn",browser,a0fea896111e.5368fe9c.eu-west-1.token.awswaf.com,AWS,Cloud/CDN,,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,appleid.cdn-apple.com,Apple,Tracking,Authentication,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,cdn.deepseek.com.436b7a4e.cdnhwcqwg14.com,First-party,,,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,challenges.cloudflare.com,First-party,Anti-bot,,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,d3bbv8sr76az5s.cloudfront.net,First-party,Claude/CDN,,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",mobile,d3bbv8sr76az5s.cloudfront.net,First-party,Claude/CDN,,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,dlxu0q5zrzfpv.cloudfront.net,First-party,,,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,fonts.gstatic.com,Google API,,,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,fp-it-acc.portal101.cn,ShuMei,Tracking,Anti-fraud,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",mobile,fp-it.fengkongcloud.com,Fengkong ,Tracking,Anti-fraud,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",mobile,static.deepseek.com.436b7a4e.cdnhwcxcy07.com,First-Party,,,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.gstatic.com,Google Cloud,,,Accept All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,a0fea896111e.5368fe9c.eu-west-1.token.awswaf.com,AWS,Cloud/CDN,,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,appleid.cdn-apple.com,Apple,Tracking,Authentication,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,cdn.deepseek.com.436b7a4e.cdnhwcqwg14.com,First-party,,,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,challenges.cloudflare.com,First-party,Anti-bot,,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,d3bbv8sr76az5s.cloudfront.net,First-party,Claude/CDN,,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,dlxu0q5zrzfpv.cloudfront.net,First-party,,,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,fonts.gstatic.com,Google API,,,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,fp-it-acc.portal101.cn,ShuMei,Tracking,Anti-fraud,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,play.google.com,Other,,,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.gstatic.com,Google Cloud,,,Ignore Consent,Free
+DeepSeek,"deepseek.com, high-flyer.cn",mobile,d3bbv8sr76az5s.cloudfront.net,First-party,Claude/CDN,,No consent banner,No Auth
+DeepSeek,"deepseek.com, high-flyer.cn",mobile,fp-it.fengkongcloud.com,Fengkong ,Tracking,Anti-fraud,No consent banner,No Auth
+DeepSeek,"deepseek.com, high-flyer.cn",browser,a0fea896111e.5368fe9c.eu-west-1.token.awswaf.com,AWS,Cloud/CDN,,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,appleid.cdn-apple.com,Apple,Tracking,Authentication,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,cdn.deepseek.com.436b7a4e.cdnhwcqwg14.com,First-party,,,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,challenges.cloudflare.com,First-party,Anti-bot,,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,d3bbv8sr76az5s.cloudfront.net,First-party,Claude/CDN,,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,dlxu0q5zrzfpv.cloudfront.net,First-party,,,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,fonts.gstatic.com,Google API,,,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,fp-it-acc.portal101.cn,ShuMei,Tracking,Anti-fraud,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,play.google.com,Other,,,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Free
+DeepSeek,"deepseek.com, high-flyer.cn",browser,www.gstatic.com,Google Cloud,,,Reject All,Free
+Gemini,gemini.google.com,browser,accounts.google.com,First-party,Tracking,Authentication,Accept All,Free
+Gemini,gemini.google.com,browser,accounts.google.com,First-party,Tracking,Authentication,Accept All,Premium
+Gemini,gemini.google.com,browser,accounts.google.es,First-party,Tracking,Authentication,Accept All,Free
+Gemini,gemini.google.com,browser,accounts.youtube.com,First-party,Tracking,Authentication,Accept All,Free
+Gemini,gemini.google.com,browser,consent.google.com,First-party,CMP,,Accept All,No Auth
+Gemini,gemini.google.com,browser,consent.google.com,First-party,CMP,,Accept All,Free
+Gemini,gemini.google.com,browser,encrypted-tbn0.gstatic.com,First-party,,,Accept All,Free
+Gemini,gemini.google.com,browser,encrypted-tbn1.gstatic.com,First-party,,,Accept All,Free
+Gemini,gemini.google.com,browser,fonts.gstatic.com,First-party,,,Accept All,No Auth
+Gemini,gemini.google.com,browser,fonts.gstatic.com,First-party,,,Accept All,Free
+Gemini,gemini.google.com,browser,gemini.google.com,First-party,,,Accept All,No Auth
+Gemini,gemini.google.com,browser,gemini.google.com,First-party,,,Accept All,Free
+Gemini,gemini.google.com,browser,gemini.google.com,First-party,,,Accept All,Premium
+Gemini,gemini.google.com,browser,gemini.gstatic.com,First-party,,,Accept All,No Auth
+Gemini,gemini.google.com,browser,gemini.gstatic.com,First-party,,,Accept All,Free
+Gemini,gemini.google.com,browser,lh3.google.com,First-party,,,Accept All,Free
+Gemini,gemini.google.com,browser,lh3.google.com,First-party,,,Accept All,Premium
+Gemini,gemini.google.com,browser,lh3.googleusercontent.com,First-party,Tracking,CMP,Accept All,No Auth
+Gemini,gemini.google.com,browser,lh3.googleusercontent.com,First-party,Tracking,CMP,Accept All,Free
+Gemini,gemini.google.com,browser,lh3.googleusercontent.com,First-party,Tracking,CMP,Accept All,Premium
+Gemini,gemini.google.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,No Auth
+Gemini,gemini.google.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+Gemini,gemini.google.com,browser,play.google.com,Other,,,Accept All,No Auth
+Gemini,gemini.google.com,browser,play.google.com,Other,,,Accept All,Free
+Gemini,gemini.google.com,browser,region1.google-analytics.com,Google Analytics,Tracking,Analytics and Advertising,Accept All,No Auth
+Gemini,gemini.google.com,browser,region1.google-analytics.com,Google Analytics,Tracking,Analytics and Advertising,Accept All,Free
+Gemini,gemini.google.com,browser,signaler-pa.clients6.google.com,First-Party,,,Accept All,No Auth
+Gemini,gemini.google.com,browser,signaler-pa.clients6.google.com,First-Party,,,Accept All,Free
+Gemini,gemini.google.com,browser,waa-pa.clients6.google.com,First-Party,,,Accept All,No Auth
+Gemini,gemini.google.com,browser,waa-pa.clients6.google.com,First-Party,,,Accept All,Free
+Gemini,gemini.google.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,No Auth
+Gemini,gemini.google.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+Gemini,gemini.google.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,No Auth
+Gemini,gemini.google.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+Gemini,gemini.google.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,No Auth
+Gemini,gemini.google.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Free
+Gemini,gemini.google.com,browser,www.gstatic.com,First-Party,,,Accept All,No Auth
+Gemini,gemini.google.com,browser,www.gstatic.com,First-Party,,,Accept All,Free
+Gemini,gemini.google.com,browser,www.gstatic.com,First-Party,,,Accept All,Premium
+Gemini,gemini.google.com,browser,,First-Party,,,Accept All,No Auth
+Gemini,gemini.google.com,browser,accounts.google.com,First-party,Tracking,Authentication,Reject All,Free
+Gemini,gemini.google.com,browser,accounts.google.com,First-party,Tracking,Authentication,Reject All,Premium
+Gemini,gemini.google.com,browser,accounts.google.es,First-party,Tracking,Authentication,Reject All,Free
+Gemini,gemini.google.com,browser,accounts.youtube.com,First-party,Tracking,Authentication,Reject All,Free
+Gemini,gemini.google.com,browser,consent.google.com,First-party,CMP,,Reject All,No Auth
+Gemini,gemini.google.com,browser,consent.google.com,First-party,CMP,,Reject All,Free
+Gemini,gemini.google.com,browser,encrypted-tbn2.gstatic.com,First-party,,,Reject All,Free
+Gemini,gemini.google.com,browser,encrypted-tbn2.gstatic.com,First-party,,,Reject All,Premium
+Gemini,gemini.google.com,browser,encrypted-tbn3.gstatic.com,First-party,,,Reject All,Premium
+Gemini,gemini.google.com,browser,fonts.gstatic.com,First-party,,,Reject All,No Auth
+Gemini,gemini.google.com,browser,fonts.gstatic.com,First-party,,,Reject All,Free
+Gemini,gemini.google.com,browser,fonts.gstatic.com,First-party,,,Reject All,Premium
+Gemini,gemini.google.com,browser,gemini.google.com,First-party,,,Reject All,No Auth
+Gemini,gemini.google.com,browser,gemini.google.com,First-party,,,Reject All,Free
+Gemini,gemini.google.com,browser,gemini.google.com,First-party,,,Reject All,Premium
+Gemini,gemini.google.com,browser,gemini.gstatic.com,First-party,,,Reject All,No Auth
+Gemini,gemini.google.com,browser,gemini.gstatic.com,First-party,,,Reject All,Free
+Gemini,gemini.google.com,browser,lh3.google.com,First-party,,,Reject All,Free
+Gemini,gemini.google.com,browser,lh3.google.com,First-party,,,Reject All,Premium
+Gemini,gemini.google.com,browser,lh3.googleusercontent.com,First-party,Tracking,CMP,Reject All,No Auth
+Gemini,gemini.google.com,browser,lh3.googleusercontent.com,First-party,Tracking,CMP,Reject All,Free
+Gemini,gemini.google.com,browser,lh3.googleusercontent.com,First-party,Tracking,CMP,Reject All,Premium
+Gemini,gemini.google.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,No Auth
+Gemini,gemini.google.com,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+Gemini,gemini.google.com,browser,play.google.com,Other,,,Reject All,No Auth
+Gemini,gemini.google.com,browser,play.google.com,Other,,,Reject All,Free
+Gemini,gemini.google.com,browser,region1.google-analytics.com,Google Analytics,Tracking,Analytics and Advertising,Reject All,Free
+Gemini,gemini.google.com,browser,signaler-pa.clients6.google.com,First-Party,,,Reject All,No Auth
+Gemini,gemini.google.com,browser,signaler-pa.clients6.google.com,First-Party,,,Reject All,Free
+Gemini,gemini.google.com,browser,waa-pa.clients6.google.com,First-Party,,,Reject All,No Auth
+Gemini,gemini.google.com,browser,waa-pa.clients6.google.com,First-Party,,,Reject All,Free
+Gemini,gemini.google.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,No Auth
+Gemini,gemini.google.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Free
+Gemini,gemini.google.com,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Premium
+Gemini,gemini.google.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+Gemini,gemini.google.com,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Premium
+Gemini,gemini.google.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Free
+Gemini,gemini.google.com,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Premium
+Gemini,gemini.google.com,browser,www.gstatic.com,First-Party,,,Reject All,No Auth
+Gemini,gemini.google.com,browser,www.gstatic.com,First-Party,,,Reject All,Free
+Gemini,gemini.google.com,browser,www.gstatic.com,First-Party,,,Reject All,Premium
+Gemini,gemini.google.com,browser,,First-Party,,,Reject All,No Auth
+Gemini,gemini.google.com,browser,,First-Party,,,Reject All,Free
+Grok,"grok.com, x.ai",browser,analytics.tiktok.com,TikTok,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,analytics.tiktok.com,TikTok,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,analytics.tiktok.com,TikTok,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,apis.google.com,Google APIs,Tracking,Tracking,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,apis.google.com,Google APIs,Tracking,Tracking,Accept All,Free
+Grok,"grok.com, x.ai",browser,apis.google.com,Google APIs,Tracking,Tracking,Accept All,Premium
+Grok,"grok.com, x.ai",browser,auth.grokipedia.com,Grok,First-party,,Accept All,Free
+Grok,"grok.com, x.ai",browser,auth.grokipedia.com,Grok,First-party,,Accept All,Premium
+Grok,"grok.com, x.ai",browser,auth.grokusercontent.com,Grok,First-party,,Accept All,Free
+Grok,"grok.com, x.ai",browser,auth.grokusercontent.com,Grok,First-party,,Accept All,Premium
+Grok,"grok.com, x.ai",browser,capi-automation.s3.us-east-2.amazonaws.com,AWS,Cloud/CDN,,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,capi-automation.s3.us-east-2.amazonaws.com,AWS,Cloud/CDN,,Accept All,Free
+Grok,"grok.com, x.ai",browser,capi-automation.s3.us-east-2.amazonaws.com,AWS,Cloud/CDN,,Accept All,Premium
+Grok,"grok.com, x.ai",browser,cdn.cookielaw.org,OneTrust,Tracking,CMP,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,cdn.cookielaw.org,OneTrust,Tracking,CMP,Accept All,Free
+Grok,"grok.com, x.ai",browser,cdn.cookielaw.org,OneTrust,Tracking,CMP,Accept All,Premium
+Grok,"grok.com, x.ai",browser,challenges.cloudflare.com,First-party,Anti-bot,,Accept All,Free
+Grok,"grok.com, x.ai",browser,challenges.cloudflare.com,First-party,Anti-bot,,Accept All,Premium
+Grok,"grok.com, x.ai",browser,connect.facebook.net,Meta,Tracking,Tracking,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,connect.facebook.net,Meta,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,connect.facebook.net,Meta,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,geolocation.onetrust.com,OneTrust,Tracking,CMP,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,geolocation.onetrust.com,OneTrust,Tracking,CMP,Accept All,Free
+Grok,"grok.com, x.ai",browser,geolocation.onetrust.com,OneTrust,Tracking,CMP,Accept All,Premium
+Grok,"grok.com, x.ai",browser,googleads.g.doubleclick.net,Doubleclick,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,googleads.g.doubleclick.net,Doubleclick,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,googleads.g.doubleclick.net,Doubleclick,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,js.stripe.com,Stripe,Tracking,In-app Payments,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,js.stripe.com,Stripe,Tracking,In-app Payments,Accept All,Free
+Grok,"grok.com, x.ai",browser,js.stripe.com,Stripe,Tracking,In-app Payments,Accept All,Premium
+Grok,"grok.com, x.ai",browser,m.stripe.com,Stripe,Tracking,In-app Payments,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,m.stripe.com,Stripe,Tracking,In-app Payments,Accept All,Free
+Grok,"grok.com, x.ai",browser,m.stripe.com,Stripe,Tracking,In-app Payments,Accept All,Premium
+Grok,"grok.com, x.ai",browser,m.stripe.network,Stripe,Tracking,In-app Payments,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,m.stripe.network,Stripe,Tracking,In-app Payments,Accept All,Free
+Grok,"grok.com, x.ai",browser,m.stripe.network,Stripe,Tracking,In-app Payments,Accept All,Premium
+Grok,"grok.com, x.ai",browser,privacyportal.onetrust.com,OneTrust,Tracking,CDP,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,privacyportal.onetrust.com,OneTrust,Tracking,CDP,Accept All,Free
+Grok,"grok.com, x.ai",browser,privacyportal.onetrust.com,OneTrust,Tracking,CDP,Accept All,Premium
+Grok,"grok.com, x.ai",browser,sgtm-prod-985009374134.us-central1.run.app,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,sgtm-prod-985009374134.us-central1.run.app,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,sgtm-prod-985009374134.us-central1.run.app,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,stapecdn.com,Stape,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,stapecdn.com,Stape,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,stapecdn.com,Stape,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,static.ads-twitter.com,Twitter Ads,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,static.ads-twitter.com,Twitter Ads,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,static.ads-twitter.com,Twitter Ads,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,static.cloudflareinsights.com,First-Party,,,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,static.cloudflareinsights.com,First-Party,,,Accept All,Free
+Grok,"grok.com, x.ai",browser,static.cloudflareinsights.com,First-Party,,,Accept All,Premium
+Grok,"grok.com, x.ai",browser,t.co,First-Party,,,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,t.co,First-Party,,,Accept All,Free
+Grok,"grok.com, x.ai",browser,t.co,First-Party,,,Accept All,Premium
+Grok,"grok.com, x.ai",browser,t0.gstatic.com,Google Cloud,,,Accept All,Free
+Grok,"grok.com, x.ai",browser,t0.gstatic.com,Google Cloud,,,Accept All,Premium
+Grok,"grok.com, x.ai",browser,t1.gstatic.com,Google Cloud,,,Accept All,Free
+Grok,"grok.com, x.ai",browser,t1.gstatic.com,Google Cloud,,,Accept All,Premium
+Grok,"grok.com, x.ai",browser,t2.gstatic.com,Google Cloud,,,Accept All,Free
+Grok,"grok.com, x.ai",browser,t3.gstatic.com,Google Cloud,,,Accept All,Free
+Grok,"grok.com, x.ai",browser,t3.gstatic.com,Google Cloud,,,Accept All,Premium
+Grok,"grok.com, x.ai",browser,wa.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,wa.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,wa.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,wa.onelink.me,Appsflyer,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,wa.onelink.me,Appsflyer,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,wa.onelink.me,Appsflyer,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,websdk.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,websdk.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,websdk.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,www.facebook.com,Meta,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,www.facebook.com,Meta,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,www.facebook.com,Meta,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,www.google.es,Google Search,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,www.google.es,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,www.google.es,Google Search,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,analytics.twitter.com,Twitter Analytics,Tracking,Analytics and Advertising,Accept All,No Auth
+Grok,"grok.com, x.ai",browser,analytics.twitter.com,Twitter Analytics,Tracking,Analytics and Advertising,Accept All,Free
+Grok,"grok.com, x.ai",browser,analytics.twitter.com,Twitter Analytics,Tracking,Analytics and Advertising,Accept All,Premium
+Grok,"grok.com, x.ai",browser,apis.google.com,Google APIs,Tracking,Tracking,Ignore Consent,No Auth
+Grok,"grok.com, x.ai",browser,apis.google.com,Google APIs,Tracking,Tracking,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,apis.google.com,Google APIs,Tracking,Tracking,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,auth.grokipedia.com,Grok,First-party,,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,auth.grokipedia.com,Grok,First-party,,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,auth.grokusercontent.com,Grok,First-party,,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,auth.grokusercontent.com,Grok,First-party,,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,cdn.cookielaw.org,OneTrust,Tracking,CMP,Ignore Consent,No Auth
+Grok,"grok.com, x.ai",browser,cdn.cookielaw.org,OneTrust,Tracking,CMP,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,cdn.cookielaw.org,OneTrust,Tracking,CMP,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,challenges.cloudflare.com,First-party,Anti-bot,,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,challenges.cloudflare.com,First-party,Anti-bot,,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,geolocation.onetrust.com,OneTrust,Tracking,CMP,Ignore Consent,No Auth
+Grok,"grok.com, x.ai",browser,geolocation.onetrust.com,OneTrust,Tracking,CMP,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,geolocation.onetrust.com,OneTrust,Tracking,CMP,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,js.stripe.com,Stripe,Tracking,In-app Payments,Ignore Consent,No Auth
+Grok,"grok.com, x.ai",browser,js.stripe.com,Stripe,Tracking,In-app Payments,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,js.stripe.com,Stripe,Tracking,In-app Payments,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,m.stripe.com,Stripe,Tracking,In-app Payments,Ignore Consent,No Auth
+Grok,"grok.com, x.ai",browser,m.stripe.com,Stripe,Tracking,In-app Payments,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,m.stripe.com,Stripe,Tracking,In-app Payments,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,m.stripe.network,Stripe,Tracking,In-app Payments,Ignore Consent,No Auth
+Grok,"grok.com, x.ai",browser,m.stripe.network,Stripe,Tracking,In-app Payments,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,m.stripe.network,Stripe,Tracking,In-app Payments,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,privacyportal.onetrust.com,OneTrust,Tracking,CDP,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,privacyportal.onetrust.com,OneTrust,Tracking,CDP,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,static.cloudflareinsights.com,First-Party,,,Ignore Consent,No Auth
+Grok,"grok.com, x.ai",browser,static.cloudflareinsights.com,First-Party,,,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,static.cloudflareinsights.com,First-Party,,,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,t0.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,t0.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,t1.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,t1.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,t2.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,t2.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,t3.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,t3.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Grok,"grok.com, x.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Grok,"grok.com, x.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,Free
+Grok,"grok.com, x.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Grok,"grok.com, x.ai",mobile,9zje6z.attr.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,9zje6z.attr.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,9zje6z.attr.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,9zje6z.cdn-settings.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,9zje6z.cdn-settings.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,9zje6z.cdn-settings.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,9zje6z.conversions.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,9zje6z.conversions.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,9zje6z.conversions.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,9zje6z.inapps.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,9zje6z.inapps.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,9zje6z.inapps.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,9zje6z.launches.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,9zje6z.launches.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,9zje6z.pia.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,9zje6z.pia.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,9zje6z.pia.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,firebase-settings.crashlytics.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,firebase-settings.crashlytics.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,firebase-settings.crashlytics.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,firebaselogging-pa.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,firebaselogging-pa.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,firebaselogging-pa.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,firebaseremoteconfig.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,firebaseremoteconfig.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,sdk.iad-04.braze.com,Braze,Tracking,Analytics and Advertising,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,sdk.iad-04.braze.com,Braze,Tracking,Analytics and Advertising,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,t3.gstatic.com,Google Cloud,,,No consent banner,No Auth
+Grok,"grok.com, x.ai",mobile,t3.gstatic.com,Google Cloud,,,No consent banner,Free
+Grok,"grok.com, x.ai",mobile,t3.gstatic.com,Google Cloud,,,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,sdk.iad-04.braze.com,Braze,,,No consent banner,Premium
+Grok,"grok.com, x.ai",mobile,9zje6z.launches.appsflyersdk.com,Appsflyer,Tracking,Analytics and Advertising,No consent banner,Premium
+Grok,"grok.com, x.ai",browser,apis.google.com,Google APIs,Tracking,Tracking,Reject All,No Auth
+Grok,"grok.com, x.ai",browser,apis.google.com,Google APIs,Tracking,Tracking,Reject All,Free
+Grok,"grok.com, x.ai",browser,apis.google.com,Google APIs,Tracking,Tracking,Reject All,Premium
+Grok,"grok.com, x.ai",browser,auth.grokipedia.com,Grok,First-party,,Reject All,Free
+Grok,"grok.com, x.ai",browser,auth.grokipedia.com,Grok,First-party,,Reject All,Premium
+Grok,"grok.com, x.ai",browser,auth.grokusercontent.com,Grok,First-party,,Reject All,Free
+Grok,"grok.com, x.ai",browser,auth.grokusercontent.com,Grok,First-party,,Reject All,Premium
+Grok,"grok.com, x.ai",browser,cdn.cookielaw.org,OneTrust,Tracking,CMP,Reject All,No Auth
+Grok,"grok.com, x.ai",browser,cdn.cookielaw.org,OneTrust,Tracking,CMP,Reject All,Free
+Grok,"grok.com, x.ai",browser,cdn.cookielaw.org,OneTrust,Tracking,CMP,Reject All,Premium
+Grok,"grok.com, x.ai",browser,challenges.cloudflare.com,First-party,Anti-bot,,Reject All,Free
+Grok,"grok.com, x.ai",browser,challenges.cloudflare.com,First-party,Anti-bot,,Reject All,Premium
+Grok,"grok.com, x.ai",browser,geolocation.onetrust.com,OneTrust,Tracking,CMP,Reject All,No Auth
+Grok,"grok.com, x.ai",browser,geolocation.onetrust.com,OneTrust,Tracking,CMP,Reject All,Free
+Grok,"grok.com, x.ai",browser,geolocation.onetrust.com,OneTrust,Tracking,CMP,Reject All,Premium
+Grok,"grok.com, x.ai",browser,js.stripe.com,Stripe,Tracking,In-app Payments,Reject All,No Auth
+Grok,"grok.com, x.ai",browser,js.stripe.com,Stripe,Tracking,In-app Payments,Reject All,Free
+Grok,"grok.com, x.ai",browser,js.stripe.com,Stripe,Tracking,In-app Payments,Reject All,Premium
+Grok,"grok.com, x.ai",browser,m.stripe.com,Stripe,Tracking,In-app Payments,Reject All,No Auth
+Grok,"grok.com, x.ai",browser,m.stripe.com,Stripe,Tracking,In-app Payments,Reject All,Free
+Grok,"grok.com, x.ai",browser,m.stripe.com,Stripe,Tracking,In-app Payments,Reject All,Premium
+Grok,"grok.com, x.ai",browser,m.stripe.network,Stripe,Tracking,In-app Payments,Reject All,No Auth
+Grok,"grok.com, x.ai",browser,m.stripe.network,Stripe,Tracking,In-app Payments,Reject All,Free
+Grok,"grok.com, x.ai",browser,m.stripe.network,Stripe,Tracking,In-app Payments,Reject All,Premium
+Grok,"grok.com, x.ai",browser,privacyportal.onetrust.com,OneTrust,Tracking,CDP,Reject All,No Auth
+Grok,"grok.com, x.ai",browser,privacyportal.onetrust.com,OneTrust,Tracking,CDP,Reject All,Free
+Grok,"grok.com, x.ai",browser,privacyportal.onetrust.com,OneTrust,Tracking,CDP,Reject All,Premium
+Grok,"grok.com, x.ai",browser,static.cloudflareinsights.com,First-Party,,,Reject All,No Auth
+Grok,"grok.com, x.ai",browser,static.cloudflareinsights.com,First-Party,,,Reject All,Free
+Grok,"grok.com, x.ai",browser,static.cloudflareinsights.com,First-Party,,,Reject All,Premium
+Grok,"grok.com, x.ai",browser,t0.gstatic.com,Google Cloud,,,Reject All,Free
+Grok,"grok.com, x.ai",browser,t0.gstatic.com,Google Cloud,,,Reject All,Premium
+Grok,"grok.com, x.ai",browser,t1.gstatic.com,Google Cloud,,,Reject All,Free
+Grok,"grok.com, x.ai",browser,t1.gstatic.com,Google Cloud,,,Reject All,Premium
+Grok,"grok.com, x.ai",browser,t2.gstatic.com,Google Cloud,,,Reject All,Free
+Grok,"grok.com, x.ai",browser,t2.gstatic.com,Google Cloud,,,Reject All,Premium
+Grok,"grok.com, x.ai",browser,t3.gstatic.com,Google Cloud,,,Reject All,Free
+Grok,"grok.com, x.ai",browser,t3.gstatic.com,Google Cloud,,,Reject All,Premium
+Grok,"grok.com, x.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Free
+Grok,"grok.com, x.ai",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Premium
+Grok,"grok.com, x.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,No Auth
+Grok,"grok.com, x.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Free
+Grok,"grok.com, x.ai",browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Premium
+Meta AI,"meta.ai, meta.com",browser,scontent-mad1-1.xx.fbcdn.net,Meta,Tracking,Analytics and Advertising,Accept All,Free
+Meta AI,"meta.ai, meta.com",browser,star.c10r.facebook.com,First-Party,,,Accept All,Free
+Meta AI,"meta.ai, meta.com",browser,static.xx.fbcdn.net,Meta,Tracking,Analytics and Advertising,Accept All,Free
+Meta AI,"meta.ai, meta.com",browser,www.facebook.com,First-Party,,,Accept All,Free
+Meta AI,"meta.ai, meta.com",browser,www.instagram.com,First-Party,,,Accept All,Free
+Meta AI,"meta.ai, meta.com",browser,dgw.c10r.facebook.com,First-Party,,,Accept All,Free
+Meta AI,"meta.ai, meta.com",mobile,b-www.facebook.com,Meta,Tracking,Analytics and Advertising,No consent banner,Free
+Meta AI,"meta.ai, meta.com",mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Meta AI,"meta.ai, meta.com",mobile,scontent-mad1-1.xx.fbcdn.net,Meta,Tracking,Analytics and Advertising,No consent banner,Free
+Meta AI,"meta.ai, meta.com",mobile,scontent-mad2-1.xx.fbcdn.net,Meta,Tracking,Analytics and Advertising,No consent banner,Free
+Meta AI,"meta.ai, meta.com",mobile,scontent.xx.fbcdn.net,Meta,Tracking,Analytics and Advertising,No consent banner,Free
+Meta AI,"meta.ai, meta.com",mobile,star.c10r.facebook.com,First-Party,,,No consent banner,No Auth
+Meta AI,"meta.ai, meta.com",mobile,star.c10r.facebook.com,First-Party,,,No consent banner,Free
+Meta AI,"meta.ai, meta.com",browser,scontent-mad1-1.xx.fbcdn.net,Meta,Tracking,Analytics and Advertising,Reject All,Free
+Meta AI,"meta.ai, meta.com",browser,star.c10r.facebook.com,First-Party,,,Reject All,Free
+Meta AI,"meta.ai, meta.com",browser,static.xx.fbcdn.net,Meta,Tracking,Analytics and Advertising,Reject All,Free
+Meta AI,"meta.ai, meta.com",browser,www.facebook.com,First-Party,,,Reject All,Free
+Meta AI,"meta.ai, meta.com",browser,www.instagram.com,First-Party,,,Reject All,Free
+Meta AI,"meta.ai, meta.com",browser,dgw.c10r.facebook.com,First-Party,,,Reject All,Free
+Mistral,"mistral.ai, mistral.com",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,exp.host,Other,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,Accept All,No Auth
+Mistral,"mistral.ai, mistral.com",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,lh3.googleusercontent.com,Google User Content,Tracking,CMP,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,lh3.googleusercontent.com,Google User Content,Tracking,CMP,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,o.expo.dev,Other,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",mobile,o4507101628137472.ingest.de.sentry.io,Sentry,Tracking,Analytics and Advertising,Accept All,No Auth
+Mistral,"mistral.ai, mistral.com",mobile,o4507101628137472.ingest.de.sentry.io,Sentry,Tracking,Analytics and Advertising,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,static-assets.mistralai.com,First-Party,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,static-assets.mistralai.com,First-Party,,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,t0.gstatic.com,Google Cloud,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",mobile,t1.gstatic.com,Google Cloud,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",mobile,t2.gstatic.com,Google Cloud,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",mobile,t3.gstatic.com,Google Cloud,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",mobile,u.expo.dev,Expo,Cloud/CDN,,Accept All,No Auth
+Mistral,"mistral.ai, mistral.com",mobile,u.expo.dev,Expo,Cloud/CDN,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",mobile,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+Mistral,"mistral.ai, mistral.com",mobile,firebaseinstallations.googleapis.com,Google APIs,Tracking,Analytics and Advertising,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,u.expo.dev,Expo,Cloud/CDN,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,o4507101628137472.ingest.de.sentry.io,Sentry,Tracking,Analytics and Advertising,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,o.expo.dev,Expo,Cloud/CDN,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,exp.host,Expo,Cloud/CDN,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,t1.gstatic.com,Google Cloud,,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,t0.gstatic.com,Google Cloud,,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,t3.gstatic.com,Google Cloud,,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,play.google.com,Other,,,Accept All,No Auth
+Mistral,"mistral.ai, mistral.com",browser,static.cloudflareinsights.com,First-Party,,,Accept All,No Auth
+Mistral,"mistral.ai, mistral.com",browser,widget.intercom.io,Intercom,Tracking,Customer Support,Accept All,No Auth
+Mistral,"mistral.ai, mistral.com",browser,js.intercomcdn.com,Intercom,Tracking,Authentication,Accept All,No Auth
+Mistral,"mistral.ai, mistral.com",browser,api-iam.eu.intercom.io,Intercom,Tracking,,Accept All,No Auth
+Mistral,"mistral.ai, mistral.com",browser,nexus-europe-websocket.intercom.io,Intercom,Tracking,,Accept All,No Auth
+Mistral,"mistral.ai, mistral.com",browser,static.cloudflareinsights.com,First-Party,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,widget.intercom.io,Intercom,Tracking,Customer Support,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,js.intercomcdn.com,Intercom,Tracking,Authentication,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,api-iam.eu.intercom.io,Intercom,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,nexus-europe-websocket.intercom.io,Intercom,Tracking,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,o4507101628137472.ingest.de.sentry.io,Sentry,Tracking,Analytics and Advertising,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,www.gstatic.com,Google Cloud,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,fonts.gstatic.com,Google API,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,accounts.youtube.com,Google Accounts,Tracking,Authentication,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,play.google.com,Other,,,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,accounts.google.es,Google Accounts,Tracking,Authentication,Accept All,Free
+Mistral,"mistral.ai, mistral.com",browser,play.google.com,Other,,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,static.cloudflareinsights.com,First-Party,,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,widget.intercom.io,Intercom,Tracking,Customer Support,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,js.intercomcdn.com,Intercom,Tracking,Authentication,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,api-iam.eu.intercom.io,Intercom,Tracking,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,nexus-europe-websocket.intercom.io,Intercom,Tracking,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,o4507101628137472.ingest.de.sentry.io,Sentry,Tracking,Analytics and Advertising,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,www.gstatic.com,Google Cloud,,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,fonts.gstatic.com,Google API,,,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,accounts.youtube.com,Google Accounts,Tracking,Authentication,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",browser,accounts.google.es,Google Accounts,Tracking,Authentication,Accept All,Premium
+Mistral,"mistral.ai, mistral.com",mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Mistral,"mistral.ai, mistral.com",mobile,o4507101628137472.ingest.de.sentry.io,Sentry,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Mistral,"mistral.ai, mistral.com",mobile,u.expo.dev,Expo,Cloud/CDN,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,No Auth
+Perplexity,perplexity.ai,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,Free
+Perplexity,perplexity.ai,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Accept All,Premium
+Perplexity,perplexity.ai,browser,browser-intake-datadoghq.com,Datadog,Tracking,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,browser-intake-datadoghq.com,Datadog,Tracking,,Accept All,Free
+Perplexity,perplexity.ai,browser,browser-intake-datadoghq.com,Datadog,Tracking,,Accept All,Premium
+Perplexity,perplexity.ai,browser,fonts.gstatic.com,Google API,,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,fonts.gstatic.com,Google API,,,Accept All,Free
+Perplexity,perplexity.ai,browser,fonts.gstatic.com,Google API,,,Accept All,Premium
+Perplexity,perplexity.ai,browser,fscdn.eppo.cloud,Other,,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,fscdn.eppo.cloud,Other,,,Accept All,Free
+Perplexity,perplexity.ai,browser,fscdn.eppo.cloud,Other,,,Accept All,Premium
+Perplexity,perplexity.ai,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,No Auth
+Perplexity,perplexity.ai,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+Perplexity,perplexity.ai,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Premium
+Perplexity,perplexity.ai,browser,perplexity-ai.cloudflareaccess.com,First-party,,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,perplexity-ai.cloudflareaccess.com,First-party,,,Accept All,Free
+Perplexity,perplexity.ai,browser,perplexity-ai.cloudflareaccess.com,First-party,,,Accept All,Premium
+Perplexity,perplexity.ai,browser,play.google.com,Other,,,Accept All,Free
+Perplexity,perplexity.ai,browser,play.google.com,Other,,,Accept All,Premium
+Perplexity,perplexity.ai,browser,sdk-api-v1.singular.net,Singular,Tracking,Analytics and Advertising,Accept All,No Auth
+Perplexity,perplexity.ai,browser,sdk-api-v1.singular.net,Singular,Tracking,Analytics and Advertising,Accept All,Free
+Perplexity,perplexity.ai,browser,sdk-api-v1.singular.net,Singular,Tracking,Analytics and Advertising,Accept All,Premium
+Perplexity,perplexity.ai,browser,static.cloudflareinsights.com,First-Party,,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,static.cloudflareinsights.com,First-Party,,,Accept All,Free
+Perplexity,perplexity.ai,browser,static.cloudflareinsights.com,First-Party,,,Accept All,Premium
+Perplexity,perplexity.ai,browser,t0.gstatic.com,Google Cloud,,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,t0.gstatic.com,Google Cloud,,,Accept All,Free
+Perplexity,perplexity.ai,browser,t0.gstatic.com,Google Cloud,,,Accept All,Premium
+Perplexity,perplexity.ai,browser,t1.gstatic.com,Google Cloud,,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,t1.gstatic.com,Google Cloud,,,Accept All,Free
+Perplexity,perplexity.ai,browser,t2.gstatic.com,Google Cloud,,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,t2.gstatic.com,Google Cloud,,,Accept All,Free
+Perplexity,perplexity.ai,browser,t2.gstatic.com,Google Cloud,,,Accept All,Premium
+Perplexity,perplexity.ai,browser,t3.gstatic.com,Google Cloud,,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,t3.gstatic.com,Google Cloud,,,Accept All,Free
+Perplexity,perplexity.ai,browser,t3.gstatic.com,Google Cloud,,,Accept All,Premium
+Perplexity,perplexity.ai,browser,www.dubcdn.com,Dub,Tracking,Analytics and Advertising,Accept All,Free
+Perplexity,perplexity.ai,browser,www.dubcdn.com,Dub,Tracking,Analytics and Advertising,Accept All,Premium
+Perplexity,perplexity.ai,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,No Auth
+Perplexity,perplexity.ai,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Free
+Perplexity,perplexity.ai,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Accept All,Premium
+Perplexity,perplexity.ai,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,No Auth
+Perplexity,perplexity.ai,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Free
+Perplexity,perplexity.ai,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Accept All,Premium
+Perplexity,perplexity.ai,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,No Auth
+Perplexity,perplexity.ai,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Free
+Perplexity,perplexity.ai,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Accept All,Premium
+Perplexity,perplexity.ai,browser,www.gstatic.com,Google Cloud,,,Accept All,No Auth
+Perplexity,perplexity.ai,browser,www.gstatic.com,Google Cloud,,,Accept All,Free
+Perplexity,perplexity.ai,browser,www.gstatic.com,Google Cloud,,,Accept All,Premium
+Perplexity,perplexity.ai,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,browser-intake-datadoghq.com,Datadog,Tracking,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,browser-intake-datadoghq.com,Datadog,Tracking,,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,browser-intake-datadoghq.com,Datadog,Tracking,,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,fonts.gstatic.com,Google API,,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,fonts.gstatic.com,Google API,,,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,fonts.gstatic.com,Google API,,,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,fscdn.eppo.cloud,Other,,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,fscdn.eppo.cloud,Other,,,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,fscdn.eppo.cloud,Other,,,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,perplexity-ai.cloudflareaccess.com,First-party,,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,perplexity-ai.cloudflareaccess.com,First-party,,,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,perplexity-ai.cloudflareaccess.com,First-party,,,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,static.cloudflareinsights.com,First-Party,,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,static.cloudflareinsights.com,First-Party,,,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,static.cloudflareinsights.com,First-Party,,,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,t0.gstatic.com,Google Cloud,,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,t0.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,t0.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,t1.gstatic.com,Google Cloud,,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,t1.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,t2.gstatic.com,Google Cloud,,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,t2.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,t3.gstatic.com,Google Cloud,,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,t3.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,t3.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,www.dubcdn.com,Dub,Tracking,Analytics and Advertising,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,www.dubcdn.com,Dub,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Ignore Consent,Premium
+Perplexity,perplexity.ai,browser,www.gstatic.com,Google Cloud,,,Ignore Consent,No Auth
+Perplexity,perplexity.ai,browser,www.gstatic.com,Google Cloud,,,Ignore Consent,Free
+Perplexity,perplexity.ai,browser,www.gstatic.com,Google Cloud,,,Ignore Consent,Premium
+Perplexity,perplexity.ai,mobile,api.revenuecat.com,RevenueCat,Tracking,In-app Payments,No consent banner,Free
+Perplexity,perplexity.ai,mobile,api.revenuecat.com,RevenueCat,Tracking,In-app Payments,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,attest-764000501.us-east-1.elb.amazonaws.com,AWS,Cloud/CDN,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,cdn.cookielaw.org,OneTrust,Tracking,CMP,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,cdn.macmillan.org.uk,Other,,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,chromeupboarding-pa.googleapis.com,Other,,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,connectivitycheck.gstatic.com,Other,,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,connectivitycheck.gstatic.com,Other,,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,connectivitycheck.gstatic.com,Other,,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,dev.visualwebsiteoptimizer.com,Wingify,Tracking,Analytics and Advertising,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,firebase-settings.crashlytics.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,firebase-settings.crashlytics.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,firebase-settings.crashlytics.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,firebaseinstallations.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,firebaselogging-pa.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,firebaselogging-pa.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,firebaselogging-pa.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,firebaselogging.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,firebaseremoteconfig.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,firebaseremoteconfig.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,firebaseremoteconfig.googleapis.com,Google Firebase,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,geller-pa.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,geller-pa.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,geolocation.onetrust.com,OneTrust,Tracking,CMP,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,imagedelivery.net,First-party,,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,imagedelivery.net,First-party,,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,imagedelivery.net,First-party,,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,m.stripe.com,Stripe,Tracking,In-app Payments,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,m.stripe.com,Stripe,Tracking,In-app Payments,No consent banner,Free
+Perplexity,perplexity.ai,mobile,m.stripe.com,Stripe,Tracking,In-app Payments,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,nxj0g7.fscdn.eppo.cloud,Other,,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,nxj0g7.fscdn.eppo.cloud,Other,,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,nxj0g7.fscdn.eppo.cloud,Other,,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,optimizationguide-pa.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,optimizationguide-pa.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,optimizationguide-pa.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,people-pa.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,people-pa.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,play.googleapis.com,Other,,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,play.googleapis.com,Other,,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,play.googleapis.com,Other,,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,pplx-res.cloudinary.com,Cloudinary,Cloud/CDN,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,pplx-res.cloudinary.com,Cloudinary,Cloud/CDN,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,pplx-res.cloudinary.com,Cloudinary,Cloud/CDN,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,quake-pa.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,quake-pa.googleapis.com,Google APIs,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,sdk-api-v1.singular.net,Singular,Tracking,Analytics and Advertising,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,sdk-api-v1.singular.net,Singular,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,sdk-api-v1.singular.net,Singular,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,t0.gstatic.com,Google Cloud,,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,t0.gstatic.com,Google Cloud,,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,t0.gstatic.com,Google Cloud,,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,t1.gstatic.com,Google Cloud,,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,t1.gstatic.com,Google Cloud,,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,t1.gstatic.com,Google Cloud,,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,t2.gstatic.com,Google Cloud,,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,t2.gstatic.com,Google Cloud,,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,t2.gstatic.com,Google Cloud,,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,t3.gstatic.com,Google Cloud,,,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,t3.gstatic.com,Google Cloud,,,No consent banner,Free
+Perplexity,perplexity.ai,mobile,t3.gstatic.com,Google Cloud,,,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,www.google.com,Google Search,Tracking,Analytics and Advertising,No consent banner,No Auth
+Perplexity,perplexity.ai,mobile,www.google.com,Google Search,Tracking,Analytics and Advertising,No consent banner,Free
+Perplexity,perplexity.ai,mobile,www.google.com,Google Search,Tracking,Analytics and Advertising,No consent banner,Premium
+Perplexity,perplexity.ai,mobile,www.macmillan.org.uk,Other,,,No consent banner,No Auth
+Perplexity,perplexity.ai,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Reject All,No Auth
+Perplexity,perplexity.ai,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Reject All,Free
+Perplexity,perplexity.ai,browser,accounts.google.com,Google Accounts,Tracking,Authentication,Reject All,Premium
+Perplexity,perplexity.ai,browser,browser-intake-datadoghq.com,Datadog,Tracking,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,browser-intake-datadoghq.com,Datadog,Tracking,,Reject All,Free
+Perplexity,perplexity.ai,browser,browser-intake-datadoghq.com,Datadog,Tracking,,Reject All,Premium
+Perplexity,perplexity.ai,browser,fonts.gstatic.com,Google API,,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,fonts.gstatic.com,Google API,,,Reject All,Free
+Perplexity,perplexity.ai,browser,fonts.gstatic.com,Google API,,,Reject All,Premium
+Perplexity,perplexity.ai,browser,fscdn.eppo.cloud,Other,,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,fscdn.eppo.cloud,Other,,,Reject All,Free
+Perplexity,perplexity.ai,browser,fscdn.eppo.cloud,Other,,,Reject All,Premium
+Perplexity,perplexity.ai,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,No Auth
+Perplexity,perplexity.ai,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+Perplexity,perplexity.ai,browser,ogads-pa.clients6.google.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Premium
+Perplexity,perplexity.ai,browser,perplexity-ai.cloudflareaccess.com,First-party,,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,perplexity-ai.cloudflareaccess.com,First-party,,,Reject All,Free
+Perplexity,perplexity.ai,browser,perplexity-ai.cloudflareaccess.com,First-party,,,Reject All,Premium
+Perplexity,perplexity.ai,browser,play.google.com,Other,,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,static.cloudflareinsights.com,First-Party,,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,static.cloudflareinsights.com,First-Party,,,Reject All,Free
+Perplexity,perplexity.ai,browser,static.cloudflareinsights.com,First-Party,,,Reject All,Premium
+Perplexity,perplexity.ai,browser,t0.gstatic.com,Google Cloud,,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,t0.gstatic.com,Google Cloud,,,Reject All,Free
+Perplexity,perplexity.ai,browser,t0.gstatic.com,Google Cloud,,,Reject All,Premium
+Perplexity,perplexity.ai,browser,t1.gstatic.com,Google Cloud,,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,t1.gstatic.com,Google Cloud,,,Reject All,Free
+Perplexity,perplexity.ai,browser,t1.gstatic.com,Google Cloud,,,Reject All,Premium
+Perplexity,perplexity.ai,browser,t2.gstatic.com,Google Cloud,,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,t2.gstatic.com,Google Cloud,,,Reject All,Premium
+Perplexity,perplexity.ai,browser,t3.gstatic.com,Google Cloud,,,Reject All,Free
+Perplexity,perplexity.ai,browser,t3.gstatic.com,Google Cloud,,,Reject All,Premium
+Perplexity,perplexity.ai,browser,www.dubcdn.com,Dub,Tracking,Analytics and Advertising,Reject All,Free
+Perplexity,perplexity.ai,browser,www.dubcdn.com,Dub,Tracking,Analytics and Advertising,Reject All,Premium
+Perplexity,perplexity.ai,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,No Auth
+Perplexity,perplexity.ai,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Free
+Perplexity,perplexity.ai,browser,www.google.com,Google Search,Tracking,Analytics and Advertising,Reject All,Premium
+Perplexity,perplexity.ai,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,No Auth
+Perplexity,perplexity.ai,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Free
+Perplexity,perplexity.ai,browser,www.googleadservices.com,Google Ads,Tracking,Analytics and Advertising,Reject All,Premium
+Perplexity,perplexity.ai,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,No Auth
+Perplexity,perplexity.ai,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Free
+Perplexity,perplexity.ai,browser,www.googletagmanager.com,Google Tag Manager,Tracking,Analytics and Advertising,Reject All,Premium
+Perplexity,perplexity.ai,browser,www.gstatic.com,Google Cloud,,,Reject All,No Auth
+Perplexity,perplexity.ai,browser,www.gstatic.com,Google Cloud,,,Reject All,Free
+Perplexity,perplexity.ai,browser,www.gstatic.com,Google Cloud,,,Reject All,Premium
