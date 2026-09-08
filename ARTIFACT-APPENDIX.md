@@ -173,11 +173,6 @@ Environment is ready.
 
 Completion takes under one minute. Any `FAILED` line indicates a setup problem.
 
-> [!IMPORTANT]
-> **TODO:** the sentence above was left unfinished in the draft ("Any `FAILED`
-> line indicates a setup problem;"). Complete it with the intended remediation
-> advice, e.g. which dependency or path to check.
-
 ## Artifact Evaluation
 
 ### Main Results and Claims
