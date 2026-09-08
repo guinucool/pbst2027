@@ -11,7 +11,7 @@ The following artifacts can be found:
   - Evidence folder contains actual data from our experiments:
     - `data/evidence/labelled-domains.csv`. A CSV file containing the third parties manually labelled found in each service, along with the account and consent conditions under which they were observed. "Tracking/Other" column contains the manual label.
     - `data/evidence/fingerprinters.json`. A json file containing the found fingerprinting APIS in the actual network captures.
-    - `data/"Canary tokens"/`. CSVs containing the IP directions that opened the canary links.
+    - `data/"canary-tokens"/`. CSVs containing the IP directions that opened the canary links, both [cannary tokens implementation](data/evidence/canary-tokens/Canary-Tokens-Alerts.csv)  and [our self hosted solution](data/evidence/canary-tokens/Canary-Tokens-Alerts-Selfhosted.csv).
   - Results folder contains data obtained by executing the scripts on the sample captures.
     - Expected folder: contains the results expected from running the scripts.
     - Tests folder: where the results from the execution of the scripts are stored.
