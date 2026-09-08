@@ -41,7 +41,7 @@ The following artifacts can be found:
   - Evidence folder contains actual data from our experiments:
     - `data/evidence/labelled-domains.csv`. A CSV file containing the third parties manually labelled found in each service, along with the account and consent conditions under which they were observed. "Tracking/Other" column contains the manual label.
     - `data/evidence/fingerprinters.json`. A json file containing the found fingerprinting APIS in the actual network captures.
-    - `data/"Canary tokens"/`. CSVs containing the IP directions that opened the canary links.
+    - `data/"canary-tokens"/`. CSVs containing the IP directions that opened the canary links.
   - Results folder contains data obtained by executing the scripts on the sample captures.
     - Expected folder: contains the results expected from running the scripts.
     - Tests folder: where the results from the execution of the scripts are stored.
@@ -116,7 +116,7 @@ uv pip install -r requirements.txt
 
 Describe the expected results where it makes sense to do so.
 
-### Testing the Environment (Required for Functional and Reproduced badges)
+### Testing the Environment
 
 With the virtual environment active (see above), run the test script from the
 root of the cloned repository:
@@ -141,80 +141,91 @@ Environment is ready.
 
 Completion takes under one minute. Any `FAILED` line indicates a setup problem;
 
-## Artifact Evaluation (Required for Functional and Reproduced badges)
-
-This section should include all the steps required to evaluate your artifact's
-functionality and validate your paper's key results and claims. Therefore,
-highlight your paper's main results and claims in the first subsection. And
-describe the experiments that support your claims in the subsection after that.
+## Artifact Evaluation
 
 ### Main Results and Claims
 
-List all your paper's results and claims that are supported by your submitted
-artifacts.
+#### Main Result 1: Conversational AI services integrate third-party tracking, analytics, advertising, and attribution infrastructures across their web and mobile clients
 
-#### Main Result 1: Name
+We showed that the tracking infrastructure of the web and mobile ecosystems—pixels, SDKs, persistent identifiers, and server-side forwarding—has been carried into conversational AI clients largely unchanged. Across the providers we studied, we observed contacts with domains belonging to advertising, analytics, and attribution organizations, present in both the web and mobile clients of the same service. This is supported by [Experiment 1](#experiment-1-third-party-service-analysis), in which we extract the third-party domains contacted in the sample captures and attribute them to the organizations operating them. Our manually labeled evidence can be found in the [labeled domains CSV](data/evidence/labelled-domains.csv).
 
-Describe the results in 1 to 3 sentences. Mention what the independent and
-dependent variables are; independent variables are the ones on the x-axes of
-your figures, whereas the dependent ones are on the y-axes. By varying the
-independent variable (e.g., file size) in a given manner (e.g., linearly), we
-expect to see trends in the dependent variable (e.g., runtime, communication
-overhead) vary in another manner (e.g., exponentially). Refer to the related
-sections, figures, and/or tables in your paper and reference the experiments
-that support this result/claim. See example below.
+#### Main Result 2: Conversation-derived artifacts and user information are exposed by conversational AI services, either to third-party entities or through publicly accessible resources
 
-#### Main Result 2: Example Name
+We observed conversational AI services exposing conversation artifacts such as prompts, generated titles, and permalinks to third parties. These disclosures frequently occur alongside persistent identifiers, including advertising IDs, hashed email addresses, and tracking cookies, enabling conversations to be linked to long-term user profiles. We further found that cookie consent and subscription tier provide limited protection, while permissive sharing defaults leave conversation permalinks publicly accessible. This is supported by [Experiment 2](#experiment-2-privacy-analysis), in which we inspect the payloads of the requests directed at the third parties identified in Experiment 1 and recover the conversation artifacts and identifiers they carry.
 
-Our paper claims that when varying the file size linearly, the runtime also
-increases linearly. This claim is reproducible by executing our
-[Experiment 2](#experiment-2-example-name). In this experiment, we change the
-file size linearly, from 2KB to 24KB, at intervals of 2KB each, and we show that
-the runtime also increases linearly, reaching at most 1ms. We report these
-results in "Figure 1a" and "Table 3" (Column 3 or Row 2) of our paper.
+#### Main Result 3: Conversational AI services have the ability to fingerprint web browsers and probabilistically identify users
+
+Following prior work findings, we search for APIs commonly associated with browser fingerprinting across most providers. We find such APIs invoked in scripts served by all providers. Although the presence of these APIs alone does not establish active fingerprinting, it indicates that providers possess the technical capability to derive high-entropy device characteristics. This observation is consistent with recent analyses of DeepSeek, which have reported the use of multiple fingerprinting methods for tracking and attribution purposes [NowSecure. 2025. NowSecure Uncovers Multiple Security and Privacy Flaws in DeepSeek iOS Mobile App](https://www.nowsecure.com/blog/2025/02/06/nowsecure-uncovers-multiple-security-and-privacy-flaws-in-deepseek-ios-mobile-app/). Accessed: 2026-05-28. This is supported by [Experiment 3](#experiment-3-fingerprint-analysis), which detects the presence of these APIs in the scripts served to the web clients.
+
+#### Main Result 4: Using canary tokens, we confirmed that shared conversations are subsequently accessed from distributed third-party infrastructure
+
+We embedded canary tokens in conversations shared through the providers' native sharing features and recorded the accesses they triggered. Beyond the accesses attributable to the recipient, we observed retrievals originating from hosting and cloud infrastructure unrelated to the recipient, indicating that shared conversations are collected by third parties after publication. This result is not reproducible from the uploaded artifacts, as it depends on live infrastructure and on tokens tied to our own accounts; the recorded accesses are provided as evidence in data/evidence/canary-tokens both [cannary tokens implementation](data/evidence/canary-tokens/Canary-Tokens-Alerts.csv)  and [our self hosted solution](data/evidence/canary-tokens/Canary-Tokens-Alerts-Selfhosted.csv).
 
 ### Experiments
-List each experiment to execute to reproduce your results. Describe:
- - How to execute it in detailed steps.
- - What the expected result is.
- - How long it takes to execute in human and compute times (approximately).
- - How much space it consumes on disk (approximately) (omit if <10GB).
- - Which claim and results does it support, and how.
 
-#### Experiment 1: Name
-- Time: replace with estimate in human-minutes/hours + compute-minutes/hours.
-- Storage: replace with estimate for disk space used (omit if <10GB).
+All experiment outputs are written to `data/results/tests`, so that a reviewer's results can be compared against the evidence in `data/evidence/` without overwriting it.
 
-Provide a short explanation of the experiment and expected results. Describe
-thoroughly the steps to perform the experiment and to collect and organize the
-results as expected from your paper (see example below). Use code segments to
-simplify the workflow, as follows.
+#### Experiment 1: Third-party Service Analysis
+
+- Time: 5 human-minutes + 5 compute-minutes
+- Supports: [Main Result 1](#main-result-1-conversational-ai-services-integrate-third-party-tracking-analytics-advertising-and-attribution-infrastructures-across-their-web-and-mobile-clients) (S-5)
+
+This experiment extracts and labels the third-party domains seen in the HAR captures. It works in two steps: first the domains are extracted from the captures, then they are labeled to attribute them to an organization.
 
 ```bash
-python3 experiment_1.py
+# Change directory to tpintegration
+cd tpintegration
+# Extract the 3rd-party domains
+python main.py extract
+# Label the domains
+python main.py label
 ```
 
-#### Experiment 2: Example Name
+The labeled domains are written to `data/results/tests`. Each domain is attributed to the organization operating it and to the clients in which it was observed, and can be compared directly against [data/evidence/labelled-domains.csv](data/evidence/labelled-domains.csv). Because the uploaded captures are a subset of those used in the paper, the reviewer should expect a subset of the domains reported there rather than an exact match.
 
-- Time: 10 human-minutes + 3 compute-hours
-- Storage: 20GB
+#### Experiment 2: Privacy Analysis
 
-This example experiment reproduces
-[Main Result 2: Example Name](#main-result-2-example-name), the following script
-will run the simulation automatically with the different parameters specified in
-the paper. (You may run the following command from the example Docker image.)
+- Time: 5 human-minutes + 5 compute-minutes
+- Supports: [Main Result 2](#main-result-2-conversation-derived-artifacts-and-user-information-are-exposed-by-conversational-ai-services-either-to-third-party-entities-or-through-publicly-accessible-resources) (S-6)
+
+This experiment takes the captures filtered to the third parties identified in Experiment 1 and inspects the request payloads for conversation artifacts—prompts, generated titles, and permalinks—and for the persistent identifiers accompanying them.
 
 ```bash
-python3 main.py
+# Change directory to privacyanalysis
+cd privacyanalysis
 ```
 
-Results from this example experiment will be aggregated over several iterations
-by the script and output directly in raw format along with variances and
-standard deviations in the `output-folder/` directory. You will also find there
-the plots for "Figure 1a" in `.pdf` format and the table for "Table 3" in `.tex`
-format. These can be directly compared to the results reported in the paper, and
-should not quantitatively vary by more than 5% from expected results.
+The recovered artifacts and identifiers are written to `data/results/tests`, grouped by client and by recipient organization.
 
+#### Experiment 3: Fingerprint Analysis
+
+- Time: 5 human-minutes + 5 compute-minutes
+- Supports: [Main Result 3](#main-result-3-conversational-ai-services-have-the-ability-to-fingerprint-web-browsers-and-probabilistically-identify-users) (S-6.2.1, JS Fingerprinting Indicators)
+
+The `fingerprint.py` script reads the HAR capture files from a folder and detects fingerprinting API usage based on `fp-inspector_apis.txt`. This file contains the APIs that appear only in fingerprinting scripts according to FP-Inspector, i.e. those marked with an infinity ratio. Source: [FP-Inspector potential fingerprinting APIs](https://github.com/uiowa-irl/FP-Inspector/blob/master/Data/potential_fingerprinting_APIs.md).
+
+*Disclaimer: the naming in the execution of the test script differs from the above because of the folder structure.*
+
+```bash
+# Change directory to fingerprint
+cd fingerprint
+# Extract the fingerprinting apis used
+python fingerprint.py
+```
+
+The output is a JSON file in `data/results/tests` containing every API searched for and the captures in which it appears. For example:
+
+```json
+{
+  "mozSetImageElement": [],
+  "magnetometer": [
+    "Mistral-Web",
+    "Copilot-Web"
+  ]
+}
+```
+
+Here `mozSetImageElement` was not found anywhere, while `magnetometer` was found in the Mistral and Copilot web experiments.
 
 ## Limitations (Required for Functional and Reproduced badges)
 
