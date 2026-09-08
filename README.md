@@ -18,6 +18,7 @@ This repository contains both the evidence collected during our analysis and the
   - [Interaction Artifacts](#interaction-artifacts)
     - [Labelling](#labelling)
     - [Directory Structure](#directory-structure)
+  - [Citing](#citing)
 
 ## Repository Contents
 
@@ -203,3 +204,23 @@ WEB/LLM1/LLM1-A2-P1-T1-C3-S1-20260114/I1/
 ```
 
 reads as: LLM1, free account (`A2`), normal chat (`P1`), default privacy settings (`T1`), non-essential cookies accepted (`C3`), chat not shared (`S1`), captured on 2026-01-14, regular interaction (`I1`).
+
+## Citing
+
+```bibtex
+@inproceedings{oliveira2026prompt,
+  author  = {Oliveira, Guilherme and
+             Sanchez, Miguel and
+             De Santa Olalla G{\'o}mez, Juan Manuel and
+             Serna, Roi S. and
+             Jackevicius, Tautvydas and
+             Garcia-Herrero, Jorge and
+             Girish, Aniketh and
+             Suarez-Tangil, Guillermo and
+             Vallina-Rodriguez, Narseo},
+  title   = {Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis
+             of Web and Mobile Conversational AI Agents},
+  booktitle = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
+  year    = {2026},
+}
+```
