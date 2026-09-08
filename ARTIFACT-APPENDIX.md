@@ -147,7 +147,7 @@ Completion takes under one minute. Any `FAILED` line indicates a setup problem;
 
 #### Main Result 1: Conversational AI services integrate third-party tracking, analytics, advertising, and attribution infrastructures across their web and mobile clients
 
-We showed that the tracking infrastructure of the web and mobile ecosystems—pixels, SDKs, persistent identifiers, and server-side forwarding—has been carried into conversational AI clients largely unchanged. Across the providers we studied, we observed contacts with domains belonging to advertising, analytics, and attribution organizations, present in both the web and mobile clients of the same service. This is supported by [Experiment 1](#experiment-1-third-party-service-analysis), in which we extract the third-party domains contacted in the sample captures and attribute them to the organizations operating them. Our manually labeled evidence can be found in the [labeled domains CSV](data/evidence/labelled-domains.csv).
+We showed that the tracking infrastructure of the web and mobile ecosystems—pixels, SDKs, persistent identifiers, and server-side forwarding—has been carried into conversational AI clients largely unchanged. Across the providers we studied, we observed contacts with domains belonging to advertising, analytics, and attribution organizations, present in both the web and mobile clients of the same service. This is supported by [Experiment 1](#experiment-1-third-party-service-analysis), in which we extract the third-party domains contacted in the sample captures and attribute them to the organizations operating them. Our manually labeled evidence found in the actual captures can be found in the [labeled domains CSV](data/evidence/labelled-domains.csv).
 
 #### Main Result 2: Conversation-derived artifacts and user information are exposed by conversational AI services, either to third-party entities or through publicly accessible resources
 
@@ -155,7 +155,7 @@ We observed conversational AI services exposing conversation artifacts such as p
 
 #### Main Result 3: Conversational AI services have the ability to fingerprint web browsers and probabilistically identify users
 
-Following prior work findings, we search for APIs commonly associated with browser fingerprinting across most providers. We find such APIs invoked in scripts served by all providers. Although the presence of these APIs alone does not establish active fingerprinting, it indicates that providers possess the technical capability to derive high-entropy device characteristics. This observation is consistent with recent analyses of DeepSeek, which have reported the use of multiple fingerprinting methods for tracking and attribution purposes [NowSecure. 2025. NowSecure Uncovers Multiple Security and Privacy Flaws in DeepSeek iOS Mobile App](https://www.nowsecure.com/blog/2025/02/06/nowsecure-uncovers-multiple-security-and-privacy-flaws-in-deepseek-ios-mobile-app/). Accessed: 2026-05-28. This is supported by [Experiment 3](#experiment-3-fingerprint-analysis), which detects the presence of these APIs in the scripts served to the web clients.
+Following prior work findings, we search for APIs commonly associated with browser fingerprinting across most providers. We find such APIs invoked in scripts served by all providers. Although the presence of these APIs alone does not establish active fingerprinting, it indicates that providers possess the technical capability to derive high-entropy device characteristics. This is supported by [Experiment 3](#experiment-3-fingerprint-analysis), which detects the presence of these APIs in the scripts served to the web clients.
 
 #### Main Result 4: Using canary tokens, we confirmed that shared conversations are subsequently accessed from distributed third-party infrastructure
 
@@ -181,7 +181,7 @@ python main.py extract
 python main.py label
 ```
 
-The labeled domains are written to `data/results/tests`. Each domain is attributed to the organization operating it and to the clients in which it was observed, and can be compared directly against [data/evidence/labelled-domains.csv](data/evidence/labelled-domains.csv). Because the uploaded captures are a subset of those used in the paper, the reviewer should expect a subset of the domains reported there rather than an exact match.
+The labeled domains are written to `data/results/tests`. Each domain is attributed to the organization operating it and to the clients in which it was observed. The data from the real captures manually processed can be found in [data/evidence/labelled-domains.csv](data/evidence/labelled-domains.csv).
 
 #### Experiment 2: Privacy Analysis
 
@@ -227,19 +227,23 @@ The output is a JSON file in `data/results/tests` containing every API searched 
 
 Here `mozSetImageElement` was not found anywhere, while `magnetometer` was found in the Mistral and Copilot web experiments.
 
-## Limitations (Required for Functional and Reproduced badges)
+## Limitations
 
-Describe which steps, experiments, results, graphs, tables, etc. are _not
-reproducible_ with the provided artifact. Explain why this is not
-included/possible and argue why the artifact should _still_ be evaluated for the
-respective badges.
+Two parts of our methodology are not reproducible from the provided artifacts.
 
-## Notes on Reusability (Encouraged for all badges)
+**Traffic collection.** The captures analysed in the paper cannot be released, as they were produced by interacting with the providers' clients from accounts we control and contain personal data, authentication material, and paid-subscription state. We instead ship a representative subset of sanitised captures, which the analysis scripts run over unmodified. Re-collecting equivalent captures would require an instrumented browser and mobile device, accounts on each provider, active subscriptions for the tiers we compared — and, because the providers change their clients and third-party integrations continuously, captures taken today would not match ours in any case. The collection step is therefore documented in the paper but out of scope for the artifact.
 
-First, this section might not apply to your artifacts. Describe how your
-artifact can be used beyond your research paper, e.g., as a general framework.
-The overall goal of artifact evaluation is not only to reproduce and verify your
-research but also to help other researchers to re-use and extend your artifacts.
-Discuss how your artifacts can be adapted to other settings, e.g., more input
-dimensions, other datasets, and other behavior, through replacing individual
-modules and functionality or running more iterations of a specific module.
+**Manual inspection.** Several results depend on manual analysis that the scripts support but do not replace. Attributing third-party domains to the organisations operating them requires manual review, as does identifying conversation artifacts and persistent identifiers inside request payloads, where encodings, hashing, and non-standard field names prevent reliable automatic detection. The scripts extract and group the candidates; the labelling itself was done by hand and is provided as evidence in `data/evidence/` so that anyone can inspect our decisions.
+
+**Main Result 4** is not reproducible for the reasons given above: the canary tokens are bound to conversations shared from our own accounts, and the accesses they recorded cannot be regenerated.
+
+## Notes on Reusability
+
+Our analysis pipelines are not specific to the providers we studied. All three operate on standard HAR captures and are unaware of which service produced them, so adding a provider — or a new client of an existing provider — requires only dropping additional captures into the input folder and re-running the scripts. The same applies to studying a different application domain: any web or mobile client whose traffic can be captured as HAR can be analysed without modifying the code.
+
+Individual components can be replaced independently:
+
+- The third-party labelling in `tpintegration` is driven by an external mapping of domains to organisations, which can be extended or swapped for another attribution list.
+- The fingerprinting detection in `fingerprint` reads its API list from `fp-inspector_apis.txt`. Substituting a different list — a broader FP-Inspector selection, or APIs associated with another behaviour of interest — changes what the script looks for without touching the script itself.
+- The payload inspection in `privacyanalysis` takes the third parties identified upstream as input, so it can be pointed at any set of recipients rather than the ones we selected.
+Researchers wanting to reuse the artifact as a measurement framework would need to supply their own collection step, for the reasons set out under Limitations. The analysis side, which is where most of our engineering effort went, is reusable as provided.
