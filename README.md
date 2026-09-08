@@ -26,7 +26,7 @@ The following artifacts can be found:
 
 ### Installing dependencies
 
--Python 3.13.7: Create virtual environment and install requirements
+- Python 3.13.7: Create virtual environment and install requirements
 
 ```bash
 python -m venv venv 
@@ -34,7 +34,7 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
--Other python version: Create virtual environment with correct python version (using uv) and install requirements
+- Other python version: Create virtual environment with correct python version (using uv) and install requirements
 
 ```bash
 uv venv --python 3.13.7 venv
