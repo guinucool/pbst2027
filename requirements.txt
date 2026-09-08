@@ -1,0 +1,15 @@
+certifi==2026.7.22
+charset-normalizer==3.5.1
+dnspython==2.8.0
+filelock==3.32.5
+idna==3.19
+numpy==2.2.6
+pandas==2.3.3
+python-dateutil==2.9.0.post0
+pytz==2026.3.post1
+requests==2.34.2
+requests-file==3.0.1
+six==1.17.0
+tldextract==5.3.2
+tzdata==2026.3
+urllib3==2.7.0
