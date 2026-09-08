@@ -2,22 +2,25 @@
 
 This repository contains the artifacts for the paper "Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis of Web and Mobile Conversational AI Agents".
 
+This repository contains both the evidence collected during our analysis and the code required to reproduce our experiments.
+
 The following artifacts can be found:
 
-- ARTIFACT-APPENDIX.md: compulsory markdown file for PETS submsion containing extra information for reviewers
+- ARTIFACT-APPENDIX.md: compulsory markdown file for PETS submsion containing extra information for reviewers.
 - Data folder:
   - Evidence folder contains actual data from our experiments:
-    -`data/evidence/labelled-domains.csv`. A CSV file containing the third parties manually labelled found in each service, along with the account and consent conditions under which they were observed. "Tracking/Other" column contains the manual label.
-    - `data/evidence/fingerprinters.json`. A json file containing the found fingerprinting APIS in the actual network captures
-  - Results folder contains data obtained by executing the scripts on the sample captures
-    - Expected folder: contains the results expected from running the scripts
-    - Tests folder: where the results from the execution of the scripts are stored
+    - `data/evidence/labelled-domains.csv`. A CSV file containing the third parties manually labelled found in each service, along with the account and consent conditions under which they were observed. "Tracking/Other" column contains the manual label.
+    - `data/evidence/fingerprinters.json`. A json file containing the found fingerprinting APIS in the actual network captures.
+    - `data/"Canary tokens"/`. CSVs containing the IP directions that opened the canary links.
+  - Results folder contains data obtained by executing the scripts on the sample captures.
+    - Expected folder: contains the results expected from running the scripts.
+    - Tests folder: where the results from the execution of the scripts are stored.
   - Samples folder
     - Sample har captures from grok to test scripts
 - Code folders, folders that contain the code for reproducing the experiments:
-  - tpintegration folder: the python used scripts to extract and label the third party domains in the HAR captures
-  - fingerprint folder: the python used scripts to identify javascript code related to fingerprinting
-  - privacy analysis folder: the python used scripts to obatin the personal identifiers in the HAR captures
+  - tpintegration folder: the python used scripts to extract and label the third party domains in the HAR captures.
+  - fingerprint folder: the python used scripts to identify javascript code related to fingerprinting.
+  - privacy analysis folder: the python used scripts to obatin the personal identifiers in the HAR captures.
 
 > **⚠️ Actual Network Traffic (ProtocolMonitor, HAR files, etc...) and Application (Android Manifests, etc...) Artifacts will not be publicly available as they contain sensitive data**
 

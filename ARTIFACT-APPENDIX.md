@@ -8,188 +8,138 @@ Requested Badge(s):
   - [x] **Reproduced**
 
 ## Description
-Replace this with the following:
 
 Article: "Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis of Web and Mobile Conversational AI Agents" Oliveira et al.
 The artifacts are formed by the following:
 
-- A CSV file containing the third parties found in each service, along with the account and consent conditions under which they were observed - `tpdomains.csv`
-- A script that, given the interaction artifacts, produces the basis of the aforementioned CSV - `domains.ipynb`
-- A script that collects a specification of the identifiers present in the interaction artifacts, to be later used in the disclosure hunting script - `collector.ipynb`
-- A script that, given a list of third-party domains and a list of identifiers, searches for possible third-party disclosures in the interaction artifacts - `hunter.ipynb`
-- A script that reads HAR capture files from a folder and detects fingerprinting API usage based on `fp-inspector_apis.txt` - `fingerprint.py`.
+Bibtex:
+
+```bibtex
+@inproceedings{oliveira2026prompt,
+  author  = {Oliveira, Guilherme and
+             Sanchez, Miguel and
+             De Santa Olalla G{\'o}mez, Juan Manuel and
+             Serna, Roi S. and
+             Jackevicius, Tautvydas and
+             Garcia-Herrero, Jorge and
+             Girish, Aniketh and
+             Suarez-Tangil, Guillermo and
+             Vallina-Rodriguez, Narseo},
+  title   = {Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis
+             of Web and Mobile Conversational AI Agents},
+  booktitle = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
+  year    = {2026},
+}
+```
+
+This repository contains both the evidence collected during our analysis and the code required to reproduce our experiments.
+
+The following artifacts can be found:
+
+- ARTIFACT-APPENDIX.md: compulsory markdown file for PETS submsion containing extra information for reviewers.
+- Data folder:
+  - Evidence folder contains actual data from our experiments:
+    - `data/evidence/labelled-domains.csv`. A CSV file containing the third parties manually labelled found in each service, along with the account and consent conditions under which they were observed. "Tracking/Other" column contains the manual label.
+    - `data/evidence/fingerprinters.json`. A json file containing the found fingerprinting APIS in the actual network captures.
+    - `data/"Canary tokens"/`. CSVs containing the IP directions that opened the canary links.
+  - Results folder contains data obtained by executing the scripts on the sample captures.
+    - Expected folder: contains the results expected from running the scripts.
+    - Tests folder: where the results from the execution of the scripts are stored.
+  - Samples folder
+    - Sample har captures from grok to test scripts
+- Code folders, folders that contain the code for reproducing the experiments:
+  - tpintegration folder: the python used scripts to extract and label the third party domains in the HAR captures.
+  - fingerprint folder: the python used scripts to identify javascript code related to fingerprinting.
+  - privacy analysis folder: the python used scripts to obatin the personal identifiers in the HAR captures.
 
 ### Security/Privacy Issues and Ethical Concerns
 
-There are no ethical Issues with the artifacts.
+The uploaded artifacts pose no risk to the security or privacy of the evaluator's machine, and raise no ethical concerns. Executing them does not require disabling any security mechanisms.
+
+The full interaction captures cannot be released, as they contain private data collected during our experiments. We instead provide a representative subset of sample captures to run the experiments.
 
 ## Basic Requirements
 
-None
+Our artifacts have no special hardware or software requirements. Any commodity laptop with Python and an internet connection is sufficient to reproduce our analyses.
 
 ### Hardware Requirements
 
-None
+No specialized hardware is required. The analysis scripts run on any commodity x86-64 or ARM laptop; we developed and tested them on a machine x86-64 with 16 GB of RAM. **GUI-CHECK**.
 
-### Software Requirements (Required for Functional and Reproduced badges)
+### Software Requirements
 
-1. List the OS you used to run your artifact, along with its version (e.g.,
-   Ubuntu 22.04). If your artifact can only run on a specific OS or a specific
-   OS version, list it and explain why here. In general, your artifact reviewers
-   will probably have access to a machine with a different OS or different OS
-   version than yours; they should still be able to run appropriately packaged
-   artifacts.
-2. List the OS packages that your artifact requires, along with their versions.
-3. Artifact packaging: If you use a container runtime (e.g., Docker) to run the
-   artifact, list the container runtime and its version (e.g., Docker 23.0.3).
-   If you use VMs, list the hypervisor (e.g., VirtualBox) to run the artifact.
-4. List the programming language compiler or interpreter you used to run your
-   artifact (e.g., Python 3.13.7). Your Docker image or VM image should have
-   this version of the programming languages installed already. Your Dockerfile
-   should start from a base image with this programming language version.
-5. List packages that your artifact depends on, along with their versions. For
-   example, Python-based privacy-preserving machine learning artifacts typically
-   require `numpy`, `scipy`, etc. You may point to a file in your artifact with
-   this list, such as a `requirements.txt` file. If you rely on proprietary
-   software (e.g. Matlab R2025a), list this here and consider providing access
-   to reviewers through HotCRP.
-6. List any machine learning models required to run your artifact, along with
-   their versions. If your model is hosted on a different repository, such as on
-   Zenodo, then your artifact should download it automatically (same for
-   datasets). If a required ML model is _not_ in your artifact, provide a dummy
-   model to demonstrate the functionality of the rest of your artifact.
-7. List any datasets required to run your artifact. If any required dataset is
-   not in your artifact, you should provide a synthetic dataset that showcases
-   the expected data format.
+1. OS agnstic (preferably Linux or similar), tests performed on Linux 7.2.2-arch1-1 and **GUI-FILL-IN**.
+2. OS packages: only python needed.
+3. Artifact packaging: python virtual environment.
+4. Programming language version: Python 3.13.7 .
+5. List of packages needed in [requirements.txt](./requirements.txt) .
+6. No machine learning models needed.
+7. No aditional datasets needed.
 
-decouple
-pandas==2.3.3
-ipwhois
-pycountry-convert
-asttokens==3.0.1
-comm==0.2.3
-debugpy==1.8.21
-decorator==5.3.1
-exceptiongroup==1.3.1
-executing==2.2.1
-ipykernel==7.3.0
-ipython==8.39.0
-jedi==0.20.0
-jupyter_client==8.9.1
-jupyter_core==5.9.1
-matplotlib-inline==0.2.2
-nest-asyncio==1.6.0
-numpy==2.2.6
-packaging==26.2
-parso==0.8.7
-pexpect==4.9.0
-platformdirs==4.10.0
-prompt_toolkit==3.0.52
-psutil==7.2.2
-ptyprocess==0.7.0
-pure_eval==0.2.3
-Pygments==2.20.0
-python-dateutil==2.9.0.post0
-pytz==2026.2
-pyzmq==27.1.0
-six==1.17.0
-stack-data==0.6.3
-tornado==6.5.7
-traitlets==5.15.1
-typing_extensions==4.15.0
-tzdata==2026.2
-wcwidth==0.8.1
-certifi==2026.5.20
-charset-normalizer==3.4.7
-dnspython==2.8.0
-filelock==3.29.1
-idna==3.18
-requests==2.34.2
-requests-file==3.0.1
-tldextract==5.3.1
-urllib3==2.7.0
+### Estimated Time and Storage Consumption
 
-### Estimated Time and Storage Consumption (Required for Functional and Reproduced badges)
+- **Estimated time:** less than 15 minutes
+- **Storage consumption:** approximately 600 MiB
 
-Replace the following with estimated values for:
+## Environment
 
-- The overall human and compute times required to run the artifact.
-- The overall disk space consumed by the artifact.
+Setting up the environment requires only cloning the repository, ensuring the
+correct Python version is available, and installing the dependencies listed in
+`requirements.txt` inside a virtual environment.
 
-This helps reviewers schedule the evaluation in their time plan and others in
-general to see if everything is running as intended. This should also be
-specified at a finer granularity for each experiment (see below).
+### Accessibility
 
-If your experiments require long compute times (e.g., more than 2 days) consider
-providing experiments with reduced scale, especially for the "Functional" badge.
+**GUI-CHECK**
+The artifacts are publicly available on GitHub:
+[https://github.com/guinucool/pbst2026](https://github.com/guinucool/pbst2026)
 
-## Environment (Required for all badges)
+### Set Up the Environment
 
-In the following, describe how to access your artifact and all related and
-necessary data and software components. Afterward, describe how to set up
-everything and how to verify that everything is set up correctly.
-
-### Accessibility (Required for all badges)
-
-GitHub
-
-Replace the following by a description of how to access your artifact via
-persistent sources. Valid hosting options are institutional and third-party
-digital repositories (e.g., GitHub, Gitlab, BitBucket, Zenodo, Figshare, etc.).
-Please do not use personal web pages or cloud storage services like Google
-Drive, Dropbox, etc.
-
-Note that once your artifact evaluation is finalized and a badge decision has
-been made, artifact chairs will collect a stable and persistent reference to
-your artifact to list on the website. For version-controlled repositories (e.g.,
-Git repositories), this will be a specific commit-id or tag.
-
-You _should not_ link to a specific commit here at submission time, as changes
-will likely happen during the evaluation process to address the reviewers'
-feedback, resulting in the link being out-of-date. Instead, you may link to the
-latest commit in your branch (e.g. main) as follows:
-https://github.com/PoPETS-AEC/example-docker-python-pip/tree/main
-
-### Set Up the Environment (Required for Functional and Reproduced badges)
-
-Replace the following by a description of how one should set up the environment
-for your artifact, including downloading and installing dependencies and the
-installation of the artifact itself (i.e., from the very first download or clone
-command one should perform). Be as specific as possible here. If possible, use
-code segments to simplify the workflow, e.g.,
+**GUI-CHECK**
+If Python 3.13.7 is already installed, create a virtual environment and install
+the requirements:
 
 ```bash
-git clone https://github.com/PoPETS-AEC/example-docker-python-pip.git
-docker build -t example-docker-python-pip:main .
+python -m venv venv
+source ./venv/bin/activate
+pip install -r requirements.txt
+```
+
+Otherwise, `uv` can be used to provision the required Python version alongside
+the virtual environment:
+
+```bash
+uv venv --python 3.13.7 venv
+source ./venv/bin/activate
+uv pip install -r requirements.txt
 ```
 
 Describe the expected results where it makes sense to do so.
 
 ### Testing the Environment (Required for Functional and Reproduced badges)
 
-Replace the following by a description of the basic functionality tests to check
-if the environment is set up correctly. These tests could be unit tests,
-training an ML model on very low training data, etc. If these tests succeed, all
-required software should be functioning correctly. Use code segments to simplify
-the workflow, e.g.,
-
-Launch the Docker container, attach the current working directory (i.e., run
-from the root of the cloned git repository) as a volume, set the context to be
-that volume, and provide an interactive bash terminal:
+With the virtual environment active (see above), run the test script from the
+root of the cloned repository:
 
 ```bash
-docker run --rm -it -v ${PWD}:/workspaces/example-docker-python-pip \
-    -w /workspaces/example-docker-python-pip \
-    --entrypoint bash example-docker-python-pip:main
+# If not already activated
+source ./venv/bin/activate
+python test.py 
 ```
 
-Then within the Docker container, run:
+The script verifies that all dependencies resolve, that the provided sample
+captures are present and parseable, and that the analysis pipeline runs
+end to end on a single capture. Expected output:
 
 ```bash
-./test.sh
+Python 3.13      OK
+Dependencies     OK
+Sample data      OK
+
+Environment is ready.
 ```
 
-Include the expected output.
+Completion takes under one minute. Any `FAILED` line indicates a setup problem;
 
 ## Artifact Evaluation (Required for Functional and Reproduced badges)
 
