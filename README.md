@@ -6,10 +6,11 @@ The following artifacts can be found:
 
 - ARTIFACT-APPENDIX.md: compulsory markdown file for PETS submsion containing extra information for reviewers
 - Data folder:
-  - Evidence folder
-    - A CSV file containing the third parties manually labelled found in each service, along with the account and consent conditions under which they were observed - `data/evidence/labelled-domains.csv`. "Tracking/Other" column contains the manual label.
-  - Results folder
-    - Expected folder contains the results expected from running the scripts
+  - Evidence folder contains actual data from our experiments:
+    -`data/evidence/labelled-domains.csv`. A CSV file containing the third parties manually labelled found in each service, along with the account and consent conditions under which they were observed. "Tracking/Other" column contains the manual label.
+    - `data/evidence/fingerprinters.json`. A json file containing the found fingerprinting APIS in the actual network captures
+  - Results folder contains data obtained by executing the scripts on the sample captures
+    - Expected folder: contains the results expected from running the scripts
     - Tests folder: where the results from the execution of the scripts are stored
   - Samples folder
     - Sample har captures from grok to test scripts
@@ -63,4 +64,9 @@ TO-DO: transform jupyter notebooks and normalize dependencies
 
 ### Fingerprint analysis (S-6.2.1 -> JS Fingerprinting Indicators)
 
-TO-DO: Adapt scripts to samples and make them work
+```bash
+# Change directory to fingerprint
+cd fingerprint
+# Extract the fingerprinting apis used
+python fingerprint.py
+```

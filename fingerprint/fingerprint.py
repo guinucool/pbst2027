@@ -1,17 +1,15 @@
 import json
 import os
 
-# Input output
-CSV :str = str(os.path.dirname(__file__)) + "/data/res.csv"
-
+# Input output ========================================
 # Markdown for fingerprinting apis, source: https://github.com/uiowa-irl/FP-Inspector/blob/master/Data/potential_fingerprinting_APIs.md
-FP_APIS_MD: str = str(os.path.dirname(__file__)) + "/data/potential_fingerprinting_APIs.md"
+FP_APIS_MD: str = str(os.path.dirname(__file__)) + "/input/potential_fingerprinting_APIs.md"
 # Cleaned apis file from markdown
-FP_APIS_CLEAN: str = str(os.path.dirname(__file__)) + "/data/fp-inspector_apis.txt"
+FP_APIS_CLEAN: str = str(os.path.dirname(__file__)) + "/input/fp-inspector_apis.txt"
 # Captures folder
-CAPTURES_FOLDER: str = str(os.path.dirname(__file__)) + "/../all_leaks"
+CAPTURES_FOLDER: str = str(os.path.dirname(__file__)) + "/../data/samples/"
 # Output file
-FPRINTERS_FILE = str(os.path.dirname(__file__)) + "/output/fingerprinters.json"
+FPRINTERS_FILE = str(os.path.dirname(__file__)) + "/../data/results/tests/fingerprinters.json"
 
 def extra_filter(api: str,file_path: str):
     """Filter called always to add especial cases, if returns false it is a false positive"""

@@ -220,6 +220,4 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Tests code to keep repository clean
-data/results/tests/tp_classification.csv
-data/results/tests/tp_collector.csv
-data/results/tests/tp_final.csv
+data/results/tests/

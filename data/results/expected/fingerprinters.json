@@ -1,0 +1,52 @@
+{
+    "onpointerleave": [
+        "Grok-a2-p1-t1-c2-s2-20260901-Web",
+        "Grok-a2-p1-t1-c3-s2-20260901-Web",
+        "Grok-a2-p1-t1-c1-s2-20260901-Web"
+    ],
+    "StereoPannerNode": [],
+    "FontFaceSetLoadEvent": [],
+    "PresentationConnectionAvailableEvent": [],
+    "MediaDeviceInfo": [],
+    "msGetRegionContent": [],
+    "peerIdentity": [],
+    "MSManipulationEvent": [],
+    "VideoStreamTrack": [],
+    "mozSetImageElement": [],
+    "magnetometer": [],
+    "requestWakeLock": [],
+    "PresentationRequest": [],
+    "audioWorklet": [
+        "Grok-a2-p1-t1-c2-s2-20260901-Web",
+        "Grok-a2-p1-t1-c3-s2-20260901-Web",
+        "Grok-a2-p1-t1-c1-s2-20260901-Web"
+    ],
+    "onwebkitanimationiteration": [],
+    "onpointerenter": [
+        "Grok-a2-p1-t1-c2-s2-20260901-Web",
+        "Grok-a2-p1-t1-c3-s2-20260901-Web",
+        "Grok-a2-p1-t1-c1-s2-20260901-Web"
+    ],
+    "onwebkitanimationstart": [],
+    "onlostpointercapture": [
+        "Grok-a2-p1-t1-c2-s2-20260901-Web",
+        "Grok-a2-p1-t1-c3-s2-20260901-Web",
+        "Grok-a2-p1-t1-c1-s2-20260901-Web"
+    ],
+    "RTCCertificate": [],
+    "PresentationConnectionList": [],
+    "onMSVideoOptimalLayoutChanged": [],
+    "PresentationAvailability": [],
+    "BaseAudioContext": [],
+    "activeVRDisplays": [],
+    "BluetoothRemoteGATTCharacteristic": [],
+    "VisualViewport": [
+        "Grok-a2-p1-t1-c2-s2-20260901-Web",
+        "Grok-a2-p1-t1-c3-s2-20260901-Web",
+        "Grok-a2-p1-t1-c1-s2-20260901-Web"
+    ],
+    "PresentationConnection": [],
+    "onMSVideoFormatChanged": [],
+    "onMSVideoFrameStepCompleted": [],
+    "BluetoothDevice": []
+}
