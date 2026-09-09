@@ -260,9 +260,6 @@ contains the APIs that appear only in fingerprinting scripts according to
 FP-Inspector, i.e. those marked with an infinity ratio. Source:
 [FP-Inspector potential fingerprinting APIs](https://github.com/uiowa-irl/FP-Inspector/blob/master/Data/potential_fingerprinting_APIs.md).
 
-*Disclaimer: the naming in the execution of the test script differs from the
-above because of the folder structure.*
-
 ```bash
 # Change directory to fingerprint
 cd fingerprint
@@ -283,8 +280,10 @@ for and the captures in which it appears. For example:
 }
 ```
 
-Here, `mozSetImageElement` was not found anywhere, while `magnetometer` was
+In this example, `mozSetImageElement` was not found anywhere, while `magnetometer` was
 found in the Mistral and Copilot web experiments.
+
+*Disclaimer: the results are checked manually for possible string matches that are not actually code or not the API being called*
 
 ## Limitations
 
