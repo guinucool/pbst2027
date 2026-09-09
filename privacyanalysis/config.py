@@ -42,6 +42,10 @@ CONSENT = {
 }
 INTERACTION = {"1": "Normal", "2": "Share", "3": "Load"}
 
+# Column order for CSV files containing detected leaks to third-party domains,
+# and the experimental conditions under which they appeared.
+LEAKS = ['LLM', 'Organization', 'Domain', 'Path', 'Location', 'Name', 'Value', 'Account', 'Chat', 'Privacy', 'Consent', 'Interaction']
+
 # Filesystem locations for input samples and output result files.
 HAR_ROOT_PATH = '../data/samples'
 RESULTS_PATH = '../data/results/tests'
@@ -59,7 +63,7 @@ FLAGGED_PREFIX = 'flagged_'
 EMAIL_PARAM = 'useremail'
 
 # Fields whose values should be hashed for comparison.
-HASH_VALUES = ['useremail']
+HASH_VALUES = ['useremail', 'owneremail']
 
 # Fields that represent conversation identifiers.
 CONVERSATION_IDS = ['conversationid', 'shareid']

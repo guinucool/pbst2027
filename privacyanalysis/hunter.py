@@ -1,5 +1,6 @@
-from config import CONVERSATION_IDS, FIRSTPARTY
-import urllib, zlib, re
+from config import COLLECTED_FILE, CONVERSATION_IDS, FIRSTPARTY, FLAGGED_PREFIX, LEAKS, PRIVACY, VALUES_FILE, ACCOUNT, CHAT, CONSENT, INTERACTION
+from values import fetch_values_from_file, transform_values
+import urllib, zlib, re, os, json
 import pandas as pd
 
 def fetch_tp_domains(labelled):
@@ -22,7 +23,8 @@ def fetch_tp_domains(labelled):
             
     return tp_domains
 
-# Value hunting
+# Search request text for known tracked values (e.g. IDs, emails)
+# and redact them in place, recording which values were found and where.
 
 def regex_value(name, value):
     
@@ -48,7 +50,9 @@ def hunt_values(text, values):
     
     return found_text, found_values
 
-# Request hunting
+# Apply value hunting across the different parts of an HTTP request
+# (headers, cookies, query params, and POST body), redacting matches and
+# tagging each finding with the domain, path, and location it came from.
 
 def hunt_header(header, values):
     
@@ -125,7 +129,9 @@ def hunt_request(request, values):
         
     return matches
 
-# Hunt har
+# Walk HAR files (and their per-session metadata) on disk, flag any
+# tracked values found in requests to known third-party domains, and
+# collect matches labelled with the session's experimental configuration.
 
 def hunt_har(har, tp_domains, values):
     
@@ -141,3 +147,48 @@ def hunt_har(har, tp_domains, values):
             matches.update([(tp_domains[domain], *match) for match in hunt_request(request, values)])
             
     return matches
+
+def hunt_hars(root, path_labelled):
+    
+    matches = set()
+    
+    for path, _, files in os.walk(root):
+        
+        for file in files:
+            
+            if file.endswith('.har'):
+                
+                regex = re.search(r'(\w+)-A(\d)-P(\d)-T(\d)-C(\d)-S\d-\d{8}/I(\d)', path)
+                llm = regex.group(1)
+                account = regex.group(2)
+                chat = regex.group(3)
+                privacy = regex.group(4)
+                consent = regex.group(5)
+                interaction = regex.group(6)
+                
+                path_info = os.path.join(path, VALUES_FILE)
+                path_collected = os.path.join(path, COLLECTED_FILE)
+                path_har = os.path.join(path, file)
+                path_flagged = os.path.join(path, FLAGGED_PREFIX + file)
+                
+                values = fetch_values_from_file(path_info)
+                values |= fetch_values_from_file(path_collected)
+                values |= transform_values(values)
+                
+                tp_domains = fetch_tp_domains(pd.read_csv(path_labelled))
+                
+                with open(path_har, 'r') as file:
+                    
+                    har = json.load(file)
+                    found_matches = hunt_har(har, tp_domains[llm], values)
+                    
+                    matches.update([(llm, *match, ACCOUNT[account], CHAT[chat], PRIVACY[privacy], CONSENT[consent], INTERACTION[interaction]) for match in found_matches])
+                        
+                    with open(path_flagged, 'w') as f:
+                            
+                        json.dump(har, f, indent=4)
+                        
+    matches = list(matches)
+    matches.sort()
+    
+    return pd.DataFrame(matches, columns=LEAKS)

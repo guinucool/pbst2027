@@ -48,7 +48,9 @@ def clean_findings(findings):
             
     return cleaned
 
-# Simple collection
+# Match a single header/cookie/param's raw value or name against the
+# known VALUES and NAMES patterns to identify common tracking-related
+# values.
 
 def collect_value(value):
     
@@ -82,7 +84,9 @@ def collect_value_and_name(name, value):
     
     return collect_value(value) | collect_name(name, value)
 
-# Collection of requests
+# Apply value/name collection across the different parts of an HTTP request
+# (headers, cookies, query params, and POST body) to gather all tracking-related
+# values present in that request.
 
 def collect_header(header):
     
@@ -134,7 +138,9 @@ def collect_request(request):
         
     return findings
 
-# 
+# Walk HAR files on disk, collect all tracking-related values found across their
+# requests, reconcile/clean the findings (including email-hash matching),
+# and write the resulting values out to each session's collected-values file.
 
 def collect_har(har):
     
