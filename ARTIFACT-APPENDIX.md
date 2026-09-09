@@ -70,7 +70,7 @@ evaluator's machine, and raise no ethical concerns. Executing them does not
 require disabling any security mechanism.
 
 The full interaction captures cannot be released, as they contain private data
-collected during our experiments. We instead provide a representative subset of
+collected during our experiments. We instead provide a subset of
 sample captures with which to run the experiments.
 
 ## Basic Requirements
@@ -138,7 +138,7 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Otherwise, `uv` can be used to provision the required Python version alongside
+Otherwise, `uv` or similar can be used to provision the required Python version alongside
 the virtual environment:
 
 ```bash
@@ -158,9 +158,8 @@ source ./venv/bin/activate
 python test.py
 ```
 
-The script verifies that all dependencies resolve, that the provided sample
-captures are present and parseable, and that the analysis pipeline runs
-end to end on a single capture. Expected output:
+The script verifies the python version, that all dependencies resolve, and that the provided sample
+captures are present. Expected output:
 
 ```text
 Python 3.13      OK
