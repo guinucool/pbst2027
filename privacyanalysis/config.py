@@ -58,6 +58,7 @@ COLLECTED_FILE = 'collected.val'
 
 # Prefix used to name flagged (i.e. tracker-matched) HAR entries.
 FLAGGED_PREFIX = 'flagged_'
+FLAGGED_SUFFIX = 'flag'
 
 # Parameter name used to identify a user's email in values files.
 EMAIL_PARAM = 'useremail'

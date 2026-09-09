@@ -1,4 +1,4 @@
-from config import COLLECTED_FILE, CONVERSATION_IDS, FIRSTPARTY, FLAGGED_PREFIX, LEAKS, PRIVACY, VALUES_FILE, ACCOUNT, CHAT, CONSENT, INTERACTION
+from config import COLLECTED_FILE, CONVERSATION_IDS, FIRSTPARTY, FLAGGED_PREFIX, FLAGGED_SUFFIX, LEAKS, PRIVACY, VALUES_FILE, ACCOUNT, CHAT, CONSENT, INTERACTION
 from values import fetch_values_from_file, transform_values
 import urllib, zlib, re, os, json
 import pandas as pd
@@ -169,7 +169,7 @@ def hunt_hars(root, path_labelled):
                 path_info = os.path.join(path, VALUES_FILE)
                 path_collected = os.path.join(path, COLLECTED_FILE)
                 path_har = os.path.join(path, file)
-                path_flagged = os.path.join(path, FLAGGED_PREFIX + file)
+                path_flagged = os.path.join(path, FLAGGED_PREFIX + file + FLAGGED_SUFFIX)
                 
                 values = fetch_values_from_file(path_info)
                 values |= fetch_values_from_file(path_collected)

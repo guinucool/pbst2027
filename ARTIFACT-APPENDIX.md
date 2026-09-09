@@ -124,18 +124,18 @@ correct Python version is available, and installing the dependencies listed in
 > [!IMPORTANT]
 > **TODO (GUI-CHECK):** confirm the repository URL is public and, if a stable
 > archival copy (e.g. a Zenodo DOI or a tagged commit) is required for the
-> Available badge, add it here. (I will leave this for last) Maybe change the repo for 2027 before submission? Careful to change everywhere in the doc
+> Available badge, add it here. (I will leave this for last)
 
 The artifacts are publicly available on GitHub:
-[https://github.com/guinucool/pbst2026](https://github.com/guinucool/pbst2026)
+[https://github.com/guinucool/pbst2027](https://github.com/guinucool/pbst2027)
 
 ### Set Up the Environment
 
 First, clone the repository and move to its root directory:
 
 ```bash
-git clone git@github.com:guinucool/pbst2026.git
-cd pbst2026
+git clone git@github.com:guinucool/pbst2027.git
+cd pbst2027
 ```
 
 If Python 3.13.7 is already installed, create a virtual environment and install
