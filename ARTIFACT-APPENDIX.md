@@ -124,18 +124,12 @@ correct Python version is available, and installing the dependencies listed in
 > [!IMPORTANT]
 > **TODO (GUI-CHECK):** confirm the repository URL is public and, if a stable
 > archival copy (e.g. a Zenodo DOI or a tagged commit) is required for the
-> Available badge, add it here. (I will leave this for last)
+> Available badge, add it here. (I will leave this for last) Maybe change the repo for 2027 before submission? Careful to change everywhere in the doc
 
 The artifacts are publicly available on GitHub:
 [https://github.com/guinucool/pbst2026](https://github.com/guinucool/pbst2026)
 
 ### Set Up the Environment
-
-> [!IMPORTANT]
-> **TODO (GUI-CHECK):** verify both setup paths below on a clean machine.
-
-> [!IMPORTANT]
-> Maybe change the repo for 2027 before submission?
 
 First, clone the repository and move to its root directory:
 
