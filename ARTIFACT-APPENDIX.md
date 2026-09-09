@@ -15,7 +15,7 @@ Privacy Analysis of Web and Mobile Conversational AI Agents" (Oliveira et al.).
 Bibtex:
 
 ```bibtex
-@inproceedings{oliveira2026prompt,
+@inproceedings{oliveira2027prompt,
   author  = {Oliveira, Guilherme and
              Sanchez, Miguel and
              De Santa Olalla G{\'o}mez, Juan Manuel and
@@ -28,7 +28,7 @@ Bibtex:
   title   = {Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis
              of Web and Mobile Conversational AI Agents},
   booktitle = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
-  year    = {2026},
+  year    = {2027},
 }
 ```
 
@@ -73,6 +73,15 @@ The full interaction captures cannot be released, as they contain private data
 collected during our experiments. We instead provide a representative subset of
 sample captures with which to run the experiments.
 
+> [!IMPORTANT]
+> **Check ROI**: I just want to know if it fits here. Maybe we can put it somewhere
+> else, but I think it is important to mencion.
+>
+> These sample captures were created specifically to run the experiments and were
+> collected long after those used in the paper. Consequently, results obtained from
+> them should not be considered representative of the findings reported in the main
+> study.
+
 ## Basic Requirements
 
 Our artifacts have no special hardware or software requirements. Any commodity
@@ -81,22 +90,14 @@ analyses.
 
 ### Hardware Requirements
 
-> [!IMPORTANT]
-> **TODO (GUI-CHECK):** confirm the development/test machine specification below
-> before submission.
-
 No specialized hardware is required. The analysis scripts run on any commodity
 x86-64 or ARM laptop; we developed and tested them on an x86-64 machine with
 16 GB of RAM.
 
 ### Software Requirements
 
-> [!IMPORTANT]
-> **TODO (GUI-FILL-IN):** add the second OS/kernel the artifacts were tested on
-> in item 1 below.
-
 1. OS-agnostic (Linux or similar preferred); tested on Arch Linux
-   (kernel 7.2.2-arch1-1) and **GUI-FILL-IN**.
+   (kernel 7.2.2-arch1-1) and on Ubuntu (kernel 6.8.0-138-generic).
 2. OS packages: only Python is needed.
 3. Artifact packaging: Python virtual environment.
 4. Programming language version: Python 3.13.7.
@@ -105,6 +106,9 @@ x86-64 or ARM laptop; we developed and tested them on an x86-64 machine with
 7. No additional datasets needed.
 
 ### Estimated Time and Storage Consumption
+
+> [!IMPORTANT]
+> **FROM GUI**: I will run all the experiments and calculate the actual size.
 
 - **Estimated time:** less than 30 minutes
 - **Storage consumption:** approximately 600 MiB
@@ -120,7 +124,7 @@ correct Python version is available, and installing the dependencies listed in
 > [!IMPORTANT]
 > **TODO (GUI-CHECK):** confirm the repository URL is public and, if a stable
 > archival copy (e.g. a Zenodo DOI or a tagged commit) is required for the
-> Available badge, add it here.
+> Available badge, add it here. (I will leave this for last)
 
 The artifacts are publicly available on GitHub:
 [https://github.com/guinucool/pbst2026](https://github.com/guinucool/pbst2026)
@@ -129,6 +133,16 @@ The artifacts are publicly available on GitHub:
 
 > [!IMPORTANT]
 > **TODO (GUI-CHECK):** verify both setup paths below on a clean machine.
+
+> [!IMPORTANT]
+> Maybe change the repo for 2027 before submission?
+
+First, clone the repository and move to its root directory:
+
+```bash
+git clone git@github.com:guinucool/pbst2026.git
+cd pbst2026
+```
 
 If Python 3.13.7 is already installed, create a virtual environment and install
 the requirements:
@@ -196,7 +210,7 @@ We embedded canary tokens in conversations shared through the providers' native 
 ### Experiments
 
 All experiment outputs are written to `data/results/tests`, so that a reviewer's
-results can be compared against the evidence in `data/evidence/` without
+results can be compared against the expected outcomes in `data/results/expected/` without
 overwriting it.
 
 Each script must be run from inside its own folder. The command blocks below
@@ -208,9 +222,9 @@ virtual environment active, and change into the relevant folder first.
 - Time: 5 human-minutes + 5 compute-minutes
 - Supports: [Main Result 1](#main-result-1-conversational-ai-services-integrate-third-party-tracking-analytics-advertising-and-attribution-infrastructures-across-their-web-and-mobile-clients) (§5)
 
-This experiment extracts and labels the third-party domains seen in the HAR
-captures. It works in two steps: first the domains are extracted from the
-captures, then they are labeled to attribute them to an organization.
+This experiment extracts third-party domains from the HAR captures and attributes them to organizations using a manual mapping. It runs in two stages: domain extraction followed by labeling.
+
+The extraction stage generates `tp_classification.csv` to facilitate manual classification. We provide a completed mapping for the sample captures in `tp_labelled.csv`, which is used during the labeling stage. Alternatively, `tp_classification.csv` can be used to create a custom `tp_labelled.csv` mapping.
 
 ```bash
 # Change directory to tpintegration
@@ -221,7 +235,7 @@ python main.py extract
 python main.py label
 ```
 
-The labeled domains are written to `data/results/tests`. Each domain is
+The labeled domains are written to `data/results/tests/tp_final.csv`. Each domain is
 attributed to the organization operating it and to the clients in which it was
 observed. The data from the real captures, processed manually, can be found in
 [data/evidence/labelled-domains.csv](data/evidence/labelled-domains.csv).
@@ -231,22 +245,20 @@ observed. The data from the real captures, processed manually, can be found in
 - Time: 5 human-minutes + 5 compute-minutes
 - Supports: [Main Result 2](#main-result-2-conversation-derived-artifacts-and-user-information-are-exposed-by-conversational-ai-services-either-to-third-party-entities-or-through-publicly-accessible-resources) (§6)
 
-This experiment takes the captures filtered to the third parties identified in
-Experiment 1 and inspects the request payloads for conversation
-artifacts—prompts, generated titles, and permalinks—and for the persistent
-identifiers accompanying them.
+This experiment analyzes requests to the third parties identified in Experiment 1 for disclosures of conversation artifacts—such as prompts, generated titles, and permalinks—and persistent identifiers.
 
-> [!IMPORTANT]
-> **TODO:** the command to run this experiment is missing — the block below only
-> changes directory. Add the invocation (script name and arguments) before
-> submission; a reviewer cannot reproduce Main Result 2 without it.
+It proceeds in two stages. First, it extracts automatically detectable identifiers, such as tracking cookies and hashes. It then combines them with the manually provided identifiers and conversation artifacts stored in `info.val` within each sample session folder to identify data disclosed to third parties.
 
 ```bash
 # Change directory to privacyanalysis
 cd privacyanalysis
+# Collect predictable identifiers
+python main.py collect
+# Inspect for dissemination
+python main.py hunt
 ```
 
-The recovered artifacts and identifiers are written to `data/results/tests`,
+The recovered artifacts and identifiers are written to `data/results/tests/pa_final.csv`,
 grouped by client and by recipient organization.
 
 #### Experiment 3: Fingerprint Analysis
@@ -304,17 +316,22 @@ The same applies to studying a different application domain: any web or mobile
 client whose traffic can be captured as HAR can be analyzed without modifying
 the code.
 
+> [!IMPORTANT]
+> **Check ROI:** I made some changes, they are in bold **previous | new**
+> that I feel are more accurate. Keep or delete as you feel.
+
 Individual components can be replaced independently:
 
-- The third-party labeling in `tpintegration` is driven by an external mapping
+- The third-party labeling in `tpintegration` is driven by **an external | a manual** mapping
   of domains to organizations, which can be extended or swapped for another
-  attribution list.
+  attribution **list | criteria**.
 - The fingerprinting detection in `fingerprint` reads its API list from
   `fp-inspector_apis.txt`. Substituting a different list — a broader
   FP-Inspector selection, or APIs associated with another behavior of interest —
   changes what the script looks for without touching the script itself.
 - The payload inspection in `privacyanalysis` takes the third parties identified
-  upstream as input, so it can be pointed at any set of recipients rather than
+  upstream, **as well as manually selected persitent identifiers (`info.val`)**,
+  as input, so it can be pointed at any set of recipients **and values** rather than
   the ones we selected.
 
 Researchers wanting to reuse the artifact as a measurement framework would need

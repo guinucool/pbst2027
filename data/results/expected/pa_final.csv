@@ -1,0 +1,54 @@
+LLM,Organization,Domain,Path,Location,Name,Value,Account,Chat,Privacy,Consent,Interaction
+GROK,AppsFlyer,wa.appsflyersdk.com,/events,postdata,conversationurl,grok.com/c/ca7427d0-4e59-4a3d-b751-6721166a5ff6,Free,Normal,Default,Accept All,Normal
+GROK,AppsFlyer,wa.appsflyersdk.com,/events,postdata,shareurl,grok.com/share/c2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Ads,www.googleadservices.com,/ccm/conversion/18037926571/,query,conversationurl,grok.com%2Fc%2Fca7427d0-4e59-4a3d-b751-6721166a5ff6,Free,Normal,Default,Accept All,Normal
+GROK,Google Ads,www.googleadservices.com,/ccm/conversion/18037926571/,query,em,tv.1~em.CqBqgp99PRps3nwA6qhmEHtyhCHsaBmulugs8iWgumU,Free,Normal,Default,Accept All,Normal
+GROK,Google Ads,www.googleadservices.com,/ccm/conversion/18037926571/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Normal
+GROK,Google Ads,www.googleadservices.com,/pagead/conversion/18037926571/,query,conversationurl,grok.com%2Fc%2Fca7427d0-4e59-4a3d-b751-6721166a5ff6,Free,Normal,Default,Accept All,Normal
+GROK,Google Ads,www.googleadservices.com,/pagead/conversion/18037926571/,query,em,tv.1~em.CqBqgp99PRps3nwA6qhmEHtyhCHsaBmulugs8iWgumU,Free,Normal,Default,Accept All,Normal
+GROK,Google Ads,www.googleadservices.com,/pagead/conversion/18037926571/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Normal
+GROK,Google DoubleClick,googleads.g.doubleclick.net,/pagead/viewthroughconversion/17453864730/,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google DoubleClick,googleads.g.doubleclick.net,/pagead/viewthroughconversion/17453864730/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Google DoubleClick,googleads.g.doubleclick.net,/pagead/viewthroughconversion/18037926571/,query,conversationurl,grok.com%2Fc%2Fca7427d0-4e59-4a3d-b751-6721166a5ff6,Free,Normal,Default,Accept All,Normal
+GROK,Google DoubleClick,googleads.g.doubleclick.net,/pagead/viewthroughconversion/18037926571/,query,em,tv.1~em.CqBqgp99PRps3nwA6qhmEHtyhCHsaBmulugs8iWgumU,Free,Normal,Default,Accept All,Normal
+GROK,Google DoubleClick,googleads.g.doubleclick.net,/pagead/viewthroughconversion/18037926571/,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google DoubleClick,googleads.g.doubleclick.net,/pagead/viewthroughconversion/18037926571/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Normal
+GROK,Google DoubleClick,googleads.g.doubleclick.net,/pagead/viewthroughconversion/18037926571/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/ccm/collect,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/ccm/collect,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/pagead/1p-conversion/18037926571/,query,conversationurl,grok.com%2Fc%2Fca7427d0-4e59-4a3d-b751-6721166a5ff6,Free,Normal,Default,Accept All,Normal
+GROK,Google Search,www.google.com,/pagead/1p-conversion/18037926571/,query,em,tv.1~em.CqBqgp99PRps3nwA6qhmEHtyhCHsaBmulugs8iWgumU,Free,Normal,Default,Accept All,Normal
+GROK,Google Search,www.google.com,/pagead/1p-conversion/18037926571/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Normal
+GROK,Google Search,www.google.com,/pagead/1p-user-list/17453864730/,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/pagead/1p-user-list/17453864730/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/pagead/1p-user-list/18037926571/,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/pagead/1p-user-list/18037926571/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/rmkt/collect/17453864730/,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/rmkt/collect/17453864730/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/rmkt/collect/18037926571/,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.com,/rmkt/collect/18037926571/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.pt,/pagead/1p-user-list/17453864730/,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.pt,/pagead/1p-user-list/17453864730/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.pt,/pagead/1p-user-list/18037926571/,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Search,www.google.pt,/pagead/1p-user-list/18037926571/,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Google Tag Manager,sgtm-prod-985009374134.us-central1.run.app,/data,cookies,_dcid,dcid.1.1788293539129.218877929,Free,Normal,Default,Accept All,Normal
+GROK,Google Tag Manager,sgtm-prod-985009374134.us-central1.run.app,/data,postdata,_dcid,dcid.1.1788293539129.218877929,Free,Normal,Default,Accept All,Normal
+GROK,Google Tag Manager,sgtm-prod-985009374134.us-central1.run.app,/data,postdata,_dcid,dcid.1.1788293568807.132377992,Free,Normal,Default,Accept All,Normal
+GROK,Google Tag Manager,sgtm-prod-985009374134.us-central1.run.app,/data,postdata,_dcid,dcid.1.1788293739203.676509931,Free,Normal,Default,Accept All,Share
+GROK,Google Tag Manager,sgtm-prod-985009374134.us-central1.run.app,/data,postdata,conversationurl,grok.com/c/ca7427d0-4e59-4a3d-b751-6721166a5ff6,Free,Normal,Default,Accept All,Normal
+GROK,Google Tag Manager,sgtm-prod-985009374134.us-central1.run.app,/data,postdata,shareid,c2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Tag Manager,sgtm-prod-985009374134.us-central1.run.app,/data,postdata,shareurl,grok.com/share/c2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Google Tag Manager,sgtm-prod-985009374134.us-central1.run.app,/data,postdata,title,Liver cancer symptoms and treatments,Free,Normal,Default,Accept All,Normal
+GROK,Google Tag Manager,sgtm-prod-985009374134.us-central1.run.app,/data,postdata,title,Liver cancer symptoms and treatments,Free,Normal,Default,Accept All,Share
+GROK,Twitter Analytics,analytics.twitter.com,/1/i/adsct,query,_twpid,tw.1788293539185.831690357280452299,Free,Normal,Default,Accept All,Normal
+GROK,Twitter Analytics,analytics.twitter.com,/1/i/adsct,query,_twpid,tw.1788293739153.36095164721255293,Free,Normal,Default,Accept All,Share
+GROK,Twitter Analytics,analytics.twitter.com,/1/i/adsct,query,conversationurl,grok.com%2Fc%2Fca7427d0-4e59-4a3d-b751-6721166a5ff6,Free,Normal,Default,Accept All,Normal
+GROK,Twitter Analytics,analytics.twitter.com,/1/i/adsct,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Twitter Analytics,analytics.twitter.com,/1/i/adsct,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Normal
+GROK,Twitter Analytics,analytics.twitter.com,/1/i/adsct,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share
+GROK,Twitter Analytics,analytics.twitter.com,/i/adsct,query,_twpid,tw.1788293539185.831690357280452299,Free,Normal,Default,Accept All,Normal
+GROK,Twitter Analytics,analytics.twitter.com,/i/adsct,query,_twpid,tw.1788293739153.36095164721255293,Free,Normal,Default,Accept All,Share
+GROK,Twitter Analytics,analytics.twitter.com,/i/adsct,query,conversationurl,grok.com%2Fc%2Fca7427d0-4e59-4a3d-b751-6721166a5ff6,Free,Normal,Default,Accept All,Normal
+GROK,Twitter Analytics,analytics.twitter.com,/i/adsct,query,prompt1,What%20are%20the%20symptoms%20of%20liver%20cancer%20and%20what%20treatment%20options%20exist%3F,Free,Normal,Default,Accept All,Normal
+GROK,Twitter Analytics,analytics.twitter.com,/i/adsct,query,shareurl,grok.com%2Fshare%2Fc2hhcmQtMg_3cbcdc86-5373-4d54-8b50-0899418bfcc9,Free,Normal,Default,Accept All,Share
+GROK,Twitter Analytics,analytics.twitter.com,/i/adsct,query,title,Liver%20cancer%20symptoms%20and%20treatments,Free,Normal,Default,Accept All,Share

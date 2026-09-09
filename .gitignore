@@ -219,5 +219,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Tests code to keep repository clean
-data/results/tests/
+# Samples and Tests
