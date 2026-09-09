@@ -220,3 +220,5 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Samples and Tests
+data/samples/
+data/results/tests/
