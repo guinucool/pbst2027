@@ -213,7 +213,7 @@ virtual environment active, and change into the relevant folder first.
 
 #### Experiment 1: Third-party Service Analysis
 
-- Time: 2 human-minutes + 20 compute-seconds
+- Time: 1 human-minutes + 10 compute-seconds
 - Supports: [Main Result 1](#main-result-1-conversational-ai-services-integrate-third-party-tracking-analytics-advertising-and-attribution-infrastructures-across-their-web-and-mobile-clients) (§5)
 
 This experiment extracts third-party domains from the HAR captures and attributes them to organizations using a manual mapping. It runs in two stages: domain extraction followed by labeling.

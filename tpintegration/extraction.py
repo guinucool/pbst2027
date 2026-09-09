@@ -26,18 +26,22 @@ def set_to_dataframe(s, columns):
     
     return pd.DataFrame(l, columns=columns)
 
-def extract_har(har, fp_domains):
+def extract_har(har, fp_domains, cnames):
     
     tp_domains = set()
     
     for entry in har['log']['entries']:
         
         domain = urllib.parse.urlparse(entry['request']['url']).netloc
-        cname = resolve_cname(domain)
         
-        if not is_first_party(domain, fp_domains) and not is_first_party(cname, fp_domains):
+        if domain not in cnames:
             
-            tp_domains.add((domain, cname))
+            cname = resolve_cname(domain)
+            cnames[domain] = cname
+
+        if not is_first_party(domain, fp_domains) and not is_first_party(cnames[domain], fp_domains):
+            
+            tp_domains.add((domain, cnames[domain]))
     
     return tp_domains
 
@@ -45,6 +49,8 @@ def extract_all(root):
     
     tp_collector = set()
     tp_classification = set()
+    
+    cnames = {}
     
     for path, _, files in os.walk(root):
         
@@ -66,7 +72,7 @@ def extract_all(root):
                     
                     har = json.load(file)
                     
-                    tp_domains = extract_har(har, FP_DOMAINS[llm])
+                    tp_domains = extract_har(har, FP_DOMAINS[llm], cnames)
                     
                     tp_collector.update((llm, ", ".join(FP_DOMAINS[llm]), domain, cname, ACCOUNT[account], CHAT[chat], PRIVACY[privacy], CONSENT[consent], INTERACTION[interaction]) for domain, cname in tp_domains)
                     tp_classification.update((llm, domain, cname) for domain, cname in tp_domains)
