@@ -59,8 +59,8 @@ def search_api_in_captures(folder: str,value: str)->set[str]:
                             # Process folder name to obtain device and agent
                             split = fullpath.split('/')
                             
-                            org = split[9].lower().capitalize()
-                            if 'mobile' in split[8]:
+                            org = split[-4].lower().capitalize()
+                            if 'mobile' in split[-5]:
                                 org = org + "-" + 'Mobile'
                             else:
                                 org = org + "-" + 'Web'
