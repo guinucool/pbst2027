@@ -73,15 +73,6 @@ The full interaction captures cannot be released, as they contain private data
 collected during our experiments. We instead provide a representative subset of
 sample captures with which to run the experiments.
 
-> [!IMPORTANT]
-> **Check ROI**: I just want to know if it fits here. Maybe we can put it somewhere
-> else, but I think it is important to mencion.
->
-> These sample captures were created specifically to run the experiments and were
-> collected long after those used in the paper. Consequently, results obtained from
-> them should not be considered representative of the findings reported in the main
-> study.
-
 ## Basic Requirements
 
 Our artifacts have no special hardware or software requirements. Any commodity
@@ -210,6 +201,8 @@ overwriting it.
 Each script must be run from inside its own folder. The command blocks below
 therefore assume the shell starts at the root of the cloned repository, with the
 virtual environment active, and change into the relevant folder first.
+
+*Disclaimer: The sample captures were created specifically to run the experiments and were collected long after those used in the paper. Consequently, results obtained from them should not be considered representative of the findings reported in the main study.*
 
 #### Experiment 1: Third-party Service Analysis
 
