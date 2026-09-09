@@ -219,7 +219,7 @@ virtual environment active, and change into the relevant folder first.
 
 #### Experiment 1: Third-party Service Analysis
 
-- Time: 5 human-minutes + 5 compute-minutes
+- Time: 2 human-minutes + 20 compute-seconds
 - Supports: [Main Result 1](#main-result-1-conversational-ai-services-integrate-third-party-tracking-analytics-advertising-and-attribution-infrastructures-across-their-web-and-mobile-clients) (§5)
 
 This experiment extracts third-party domains from the HAR captures and attributes them to organizations using a manual mapping. It runs in two stages: domain extraction followed by labeling.
@@ -242,7 +242,7 @@ observed. The data from the real captures, processed manually, can be found in
 
 #### Experiment 2: Privacy Analysis
 
-- Time: 5 human-minutes + 5 compute-minutes
+- Time: 20 human-seconds + 25 compute-seconds
 - Supports: [Main Result 2](#main-result-2-conversation-derived-artifacts-and-user-information-are-exposed-by-conversational-ai-services-either-to-third-party-entities-or-through-publicly-accessible-resources) (§6)
 
 This experiment analyzes requests to the third parties identified in Experiment 1 for disclosures of conversation artifacts—such as prompts, generated titles, and permalinks—and persistent identifiers.
@@ -263,7 +263,7 @@ grouped by client and by recipient organization.
 
 #### Experiment 3: Fingerprint Analysis
 
-- Time: 5 human-minutes + 5 compute-minutes
+- Time: 2 human-minutes + 2 compute-minutes
 - Supports: [Main Result 3](#main-result-3-conversational-ai-services-have-the-ability-to-fingerprint-web-browsers-and-probabilistically-identify-users) (§6.2.1, JS Fingerprinting Indicators)
 
 The `fingerprint.py` script reads the HAR capture files from a folder and
