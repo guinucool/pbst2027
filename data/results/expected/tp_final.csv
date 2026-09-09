@@ -29,13 +29,12 @@ GROK,"grok.com, x.ai",googleads.g.doubleclick.net,,Free,Normal,Default,Accept Al
 GROK,"grok.com, x.ai",hagen.challenges.cloudflare.com,,Free,Normal,Default,Accept All,Normal,First-Party
 GROK,"grok.com, x.ai",hagen.challenges.cloudflare.com,,Free,Normal,Default,Ignore Consent,Normal,First-Party
 GROK,"grok.com, x.ai",hagen.challenges.cloudflare.com,,Free,Normal,Default,Reject All,Normal,First-Party
-GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Accept All,Normal,Stripe
-GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Accept All,Share,Stripe
-GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Ignore Consent,Normal,Stripe
-GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Reject All,Normal,Stripe
-GROK,"grok.com, x.ai",js.stripe.com,dexeqbeb7giwr.cloudfront.net,Free,Normal,Default,Reject All,Share,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,stripecdn.map.fastly.net,Free,Normal,Default,Accept All,Normal,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,stripecdn.map.fastly.net,Free,Normal,Default,Accept All,Share,Stripe
 GROK,"grok.com, x.ai",js.stripe.com,stripecdn.map.fastly.net,Free,Normal,Default,Ignore Consent,Normal,Stripe
 GROK,"grok.com, x.ai",js.stripe.com,stripecdn.map.fastly.net,Free,Normal,Default,Ignore Consent,Share,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,stripecdn.map.fastly.net,Free,Normal,Default,Reject All,Normal,Stripe
+GROK,"grok.com, x.ai",js.stripe.com,stripecdn.map.fastly.net,Free,Normal,Default,Reject All,Share,Stripe
 GROK,"grok.com, x.ai",m.stripe.com,,Free,Normal,Default,Accept All,Normal,Stripe
 GROK,"grok.com, x.ai",m.stripe.com,,Free,Normal,Default,Accept All,Share,Stripe
 GROK,"grok.com, x.ai",m.stripe.com,,Free,Normal,Default,Ignore Consent,Normal,Stripe

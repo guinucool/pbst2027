@@ -8,7 +8,6 @@ GROK,challenges.cloudflare.com,,First-Party
 GROK,geolocation.onetrust.com,,OneTrust
 GROK,googleads.g.doubleclick.net,,Google DoubleClick
 GROK,hagen.challenges.cloudflare.com,,First-Party
-GROK,js.stripe.com,dexeqbeb7giwr.cloudfront.net,Stripe
 GROK,js.stripe.com,stripecdn.map.fastly.net,Stripe
 GROK,m.stripe.com,,Stripe
 GROK,m.stripe.network,prod-m-tree.stripe.network,Stripe
