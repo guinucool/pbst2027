@@ -201,6 +201,8 @@ Each script must be run from inside its own folder. The command blocks below
 therefore assume the shell starts at the root of the cloned repository, with the
 virtual environment active, and change into the relevant folder first.
 
+> [!IMPORTANT]
+> **TODO (GUI-CHECK):** If the results from the captures are real we can say some shit about that, like they are not the same as in the paper but the leaks are actually real prove of what is happening at the date of the capture
 *Disclaimer: The sample captures were created specifically to run the experiments and were collected long after those used in the paper. Consequently, results obtained from them should not be considered representative of the findings reported in the main study.*
 
 #### Experiment 1: Third-party Service Analysis
