@@ -187,6 +187,9 @@ def collect_hars(root):
         cleaned = clean_findings(values)
         cleaned = check_hashes(cleaned, hash_dict)
         
+        cleaned = list(cleaned)
+        cleaned.sort()
+        
         with open(key, 'w') as f:
             
             for name, value in cleaned:

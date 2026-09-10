@@ -203,7 +203,7 @@ virtual environment active, and change into the relevant folder first.
 
 > [!IMPORTANT]
 > **TODO (GUI-CHECK):** If the results from the captures are real we can say some shit about that, like they are not the same as in the paper but the leaks are actually real prove of what is happening at the date of the capture
-*Disclaimer: The sample captures were created specifically to run the experiments and were collected long after those used in the paper. Consequently, results obtained from them should not be considered representative of the findings reported in the main study.*
+*Disclaimer: The sample captures were created specifically to run the experiments and were collected long after those used in the paper. Consequently, results obtained from them should not be considered representative of the findings reported in the main study. None the less, their results still represent the real ecosystem for the conditions and timestamps in which they were captured.*
 
 #### Experiment 1: Third-party Service Analysis
 

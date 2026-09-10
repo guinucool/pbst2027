@@ -31,4 +31,4 @@ RESULTS_PATH = "../data/results/tests"
 TPDOMAINS_PATH = os.path.join(RESULTS_PATH, "tp_final.csv")
 
 # The path where the generated third-party domain graph will be written.
-OUTPUT_PATH = os.path.join(RESULTS_PATH, "tp_graph.pdf")
+OUTPUT_PATH = os.path.join(RESULTS_PATH, "tp_graph.png")
