@@ -117,7 +117,7 @@ The artifacts are publicly available on GitHub:
 First, clone the repository and move to its root directory:
 
 ```bash
-git clone git@github.com:guinucool/pbst2027.git
+git clone https://github.com/guinucool/pbst2027.git
 cd pbst2027
 ```
 
