@@ -1,4 +1,4 @@
-# Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis of Web and Mobile Conversational AI Agents (2026)
+# Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis of Web and Mobile Conversational AI Agents (2027)
 
 This repository contains the artifacts for the paper "Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis of Web and Mobile Conversational AI Agents".
 
@@ -10,7 +10,7 @@ This repository contains both the evidence collected during our analysis and the
 
 ## Table of Contents
 
-- [Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis of Web and Mobile Conversational AI Agents (2026)](#prompt-like-a-butterfly-sting-like-a-tracker-a-privacy-analysis-of-web-and-mobile-conversational-ai-agents-2026)
+- [Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis of Web and Mobile Conversational AI Agents (2027)](#prompt-like-a-butterfly-sting-like-a-tracker-a-privacy-analysis-of-web-and-mobile-conversational-ai-agents-2027)
   - [Table of Contents](#table-of-contents)
   - [Repository Contents](#repository-contents)
   - [Citing](#citing)
@@ -47,7 +47,7 @@ The following artifacts can be found:
 ## Citing
 
 ```bibtex
-@inproceedings{oliveira2026prompt,
+@inproceedings{oliveira2027prompt,
   author  = {Oliveira, Guilherme and
              Sanchez, Miguel and
              De Santa Olalla G{\'o}mez, Juan Manuel and
@@ -60,7 +60,7 @@ The following artifacts can be found:
   title   = {Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis
              of Web and Mobile Conversational AI Agents},
   booktitle = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
-  year    = {2026},
+  year    = {2027},
 }
 ```
 

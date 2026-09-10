@@ -101,7 +101,7 @@ x86-64 or ARM laptop; we developed and tested them on an x86-64 machine with
 > [!IMPORTANT]
 > **FROM GUI**: I will run all the experiments and calculate the actual size.
 
-- **Estimated time:** less than 30 minutes
+- **Estimated time:** less than 20 human-minutes + 15 compute-minutes
 - **Storage consumption:** approximately 600 MiB
 
 ## Environment
@@ -303,22 +303,18 @@ The same applies to studying a different application domain: any web or mobile
 client whose traffic can be captured as HAR can be analyzed without modifying
 the code.
 
-> [!IMPORTANT]
-> **Check ROI:** I made some changes, they are in bold **previous | new**
-> that I feel are more accurate. Keep or delete as you feel.
-
 Individual components can be replaced independently:
 
-- The third-party labeling in `tpintegration` is driven by **an external | a manual** mapping
+- The third-party labeling in `tpintegration` is driven by a manual mapping
   of domains to organizations, which can be extended or swapped for another
-  attribution **list | criteria**.
+  attribution criteria.
 - The fingerprinting detection in `fingerprint` reads its API list from
   `fp-inspector_apis.txt`. Substituting a different list — a broader
   FP-Inspector selection, or APIs associated with another behavior of interest —
   changes what the script looks for without touching the script itself.
 - The payload inspection in `privacyanalysis` takes the third parties identified
-  upstream, **as well as manually selected persitent identifiers (`info.val`)**,
-  as input, so it can be pointed at any set of recipients **and values** rather than
+  upstream, as well as manually selected persitent identifiers (`info.val`),
+  as input, so it can be pointed at any set of recipients and values rather than
   the ones we selected.
 
 Researchers wanting to reuse the artifact as a measurement framework would need
