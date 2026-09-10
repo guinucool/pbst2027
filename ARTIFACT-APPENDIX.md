@@ -54,7 +54,7 @@ The following artifacts can be found:
     - `data/results/expected/`: the results expected from running the scripts.
     - `data/results/tests/`: where the results of the execution of the scripts
       are stored.
-  - `data/samples/`: sample HAR captures from Grok, used to test the scripts.
+  - `data/samples/`: sample real HAR captures from Grok, used to test the scripts.
 - Code folders, which contain the code for reproducing the experiments:
   - `tpintegration/`: the Python scripts used to extract and label the
     third-party domains in the HAR captures.
@@ -297,7 +297,7 @@ found in the Mistral and Copilot web experiments.
 
 Two parts of our methodology are not reproducible from the provided artifacts.
 
-**Traffic collection.** The captures analyzed in the paper cannot be released, as they were produced by interacting with the providers' clients from accounts we control and contain personal data, authentication material, and paid-subscription state. We instead ship a representative subset of sanitized captures, which the analysis scripts run over unmodified. Re-collecting equivalent captures would require an instrumented browser and mobile device, accounts on each provider, and active subscriptions for the tiers we compared — and, because the providers change their clients and third-party integrations continuously, captures taken today would not match ours in any case. The collection step is therefore documented in the paper but out of scope for the artifact. For the same reasons, **Main Result 4** cannot be reproduced: the canary tokens are bound to conversations shared from our own accounts, and the accesses they recorded cannot be regenerated. They are provided as evidence instead.
+**Traffic collection.** The captures analyzed in the paper cannot be released, as they were produced by interacting with the providers' clients from accounts we control and contain personal data, authentication material, and paid-subscription state. We instead ship a representative subset of real captures, which the analysis scripts run over unmodified. Re-collecting equivalent captures would require an instrumented browser and mobile device, accounts on each provider, and active subscriptions for the tiers we compared — and, because the providers change their clients and third-party integrations continuously, captures taken today would not match ours in any case. The collection step is therefore documented in the paper but out of scope for the artifact. For the same reasons, **Main Result 4** cannot be reproduced: the canary tokens are bound to conversations shared from our own accounts, and the accesses they recorded cannot be regenerated. They are provided as evidence instead.
 
 **Manual inspection.** Several results depend on manual analysis that the scripts support but do not replace. Attributing third-party domains to the organizations operating them requires manual review, as does identifying conversation artifacts and persistent identifiers inside request payloads, where encodings, hashing, and non-standard field names prevent reliable automatic detection. The scripts extract and group the candidates; the labeling itself was done by hand and is provided as evidence in `data/evidence/` so that anyone can inspect our decisions.
 

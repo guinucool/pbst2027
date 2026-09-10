@@ -39,7 +39,7 @@ The following artifacts can be found:
   - `privacyanalysis` folder: the Python scripts used to obtain the personal identifiers in the HAR captures.
 
 > [!WARNING]
-> **Actual Network Traffic (ProtocolMonitor, HAR files, etc.) and Application (Android Manifests, etc.) Artifacts will not be publicly available as they contain sensitive data.**
+> **The captures provided are not the ones used for the paper. Actual Network Traffic (ProtocolMonitor, HAR files, etc.) and Application (Android Manifests, etc.) Artifacts will not be publicly available as they contain sensitive data.**
 
 > [!NOTE]
 > Analysis was conducted using both the tools provided in this repository and manual inspection.
