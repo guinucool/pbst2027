@@ -224,7 +224,7 @@ python main.py label
 
 The labeled domains are written to `data/results/tests/tp_final.csv`. Each domain is
 attributed to the organization operating it and to the clients in which it was
-observed. The data from the real captures, processed manually, can be found in
+observed. The data from our experiment captures, processed manually, can be found in
 [data/evidence/labelled-domains.csv](data/evidence/labelled-domains.csv).
 
 The experiment also generates a graph connecting AI providers to the third-party organizations they contact. Red edges indicate connections occurring regardless of consent, while black edges indicate connections occurring only after consent.
