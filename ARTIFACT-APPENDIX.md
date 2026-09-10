@@ -98,11 +98,8 @@ x86-64 or ARM laptop; we developed and tested them on an x86-64 machine with
 
 ### Estimated Time and Storage Consumption
 
-> [!IMPORTANT]
-> **FROM GUI**: I will run all the experiments and calculate the actual size.
-
 - **Estimated time:** less than 20 human-minutes + 15 compute-minutes
-- **Storage consumption:** approximately 600 MiB
+- **Storage consumption:** approximately 1.2 GiB
 
 ## Environment
 
@@ -111,11 +108,6 @@ correct Python version is available, and installing the dependencies listed in
 `requirements.txt` inside a virtual environment.
 
 ### Accessibility
-
-> [!IMPORTANT]
-> **TODO (GUI-CHECK):** confirm the repository URL is public and, if a stable
-> archival copy (e.g. a Zenodo DOI or a tagged commit) is required for the
-> Available badge, add it here. (I will leave this for last)
 
 The artifacts are publicly available on GitHub:
 [https://github.com/guinucool/pbst2027](https://github.com/guinucool/pbst2027)
@@ -193,7 +185,7 @@ We embedded canary tokens in conversations shared through the providers' native 
 
 ### Experiments
 
-All experiment outputs are written to `data/results/tests`, so that a reviewer's
+All experiment outputs are written to `data/results/tests/`, so that a reviewer's
 results can be compared against the expected outcomes in `data/results/expected/` without
 overwriting it.
 
@@ -201,9 +193,16 @@ Each script must be run from inside its own folder. The command blocks below
 therefore assume the shell starts at the root of the cloned repository, with the
 virtual environment active, and change into the relevant folder first.
 
-> [!IMPORTANT]
-> **TODO (GUI-CHECK):** If the results from the captures are real we can say some shit about that, like they are not the same as in the paper but the leaks are actually real prove of what is happening at the date of the capture
-*Disclaimer: The sample captures were created specifically to run the experiments and were collected long after those used in the paper. Consequently, results obtained from them should not be considered representative of the findings reported in the main study. None the less, their results still represent the real ecosystem for the conditions and timestamps in which they were captured.*
+*Disclaimer: The sample captures were collected specifically for these experiments and long after those used in the paper. Thus, their results are not representative of the main study's findings, but reflect the real ecosystem under the conditions and timestamps at which they were captured.*
+
+Experiment results can be verified against the expected outputs using:
+
+```bash
+# Change directory to results
+cd data/results
+# Check the validity of the experiment outputs
+python check.py
+```
 
 #### Experiment 1: Third-party Service Analysis
 
@@ -227,6 +226,15 @@ The labeled domains are written to `data/results/tests/tp_final.csv`. Each domai
 attributed to the organization operating it and to the clients in which it was
 observed. The data from the real captures, processed manually, can be found in
 [data/evidence/labelled-domains.csv](data/evidence/labelled-domains.csv).
+
+The experiment also generates a graph connecting AI providers to the third-party organizations they contact. Red edges indicate connections occurring regardless of consent, while black edges indicate connections occurring only after consent.
+
+```bash
+# Generate the graph for integration analysis
+python graph.py
+```
+
+The resulting graph is written to `data/results/tests/tp_graph.png`.
 
 #### Experiment 2: Privacy Analysis
 
@@ -267,7 +275,7 @@ cd fingerprint
 python fingerprint.py
 ```
 
-The output is a JSON file in `data/results/tests` containing every API searched
+The output is a JSON file in `data/results/tests/` containing every API searched
 for and the captures in which it appears. For example:
 
 ```json
