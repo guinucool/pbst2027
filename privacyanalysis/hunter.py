@@ -1,4 +1,4 @@
-from config import COLLECTED_FILE, CONVERSATION_IDS, FIRSTPARTY, FLAGGED_PREFIX, FLAGGED_SUFFIX, LEAKS, PRIVACY, VALUES_FILE, ACCOUNT, CHAT, CONSENT, INTERACTION
+from config import COLLECTED_FILE, CONVERSATION_IDS, FIRSTPARTY, TRACKING, FLAGGED_PREFIX, FLAGGED_SUFFIX, LEAKS, PRIVACY, VALUES_FILE, ACCOUNT, CHAT, CONSENT, INTERACTION
 from values import fetch_values_from_file, transform_values
 import urllib, zlib, re, os, json
 import pandas as pd
@@ -12,12 +12,13 @@ def fetch_tp_domains(labelled):
         llm = row.LLM
         domain = row.ThirdParty_Domain
         organization = row.Organization
+        tracking = row.Tracking
         
         if llm not in tp_domains:
             
             tp_domains[llm] = dict()
         
-        if organization != FIRSTPARTY:  
+        if organization != FIRSTPARTY and tracking == TRACKING:  
               
             tp_domains[llm][domain] = organization
             

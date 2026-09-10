@@ -69,5 +69,6 @@ HASH_VALUES = ['useremail', 'owneremail']
 # Fields that represent conversation identifiers.
 CONVERSATION_IDS = ['conversationid', 'shareid']
 
-# Category label used when classifying third-party domains and organizations.
+# Category labels used when classifying third-party domains and organizations.
 FIRSTPARTY = 'First-Party'
+TRACKING = 'Tracking'
