@@ -4,7 +4,7 @@ import sys
 
 checks = {
     "Python 3.13": lambda: sys.version_info[:2] == (3, 13),
-    "Dependencies": lambda: __import__("pandas") and __import__("tldextract"),
+    "Dependencies": lambda: __import__("pandas") and __import__("tldextract") and __import__("dns.resolver") and __import__("matplotlib"),
     "Sample data": lambda: __import__("pathlib").Path("./data/samples").is_dir(),
 }
 
