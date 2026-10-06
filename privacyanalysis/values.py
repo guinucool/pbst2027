@@ -1,6 +1,6 @@
 from config import HASH_VALUES
 from hashes import md5_hash, sha1_hash, sha256_hash
-from encondings import url_encode, base64_encode
+from encodes import url_encode, base64_encode
 
 def fetch_values_from_file(path):
     

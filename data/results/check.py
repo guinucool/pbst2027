@@ -1,8 +1,8 @@
 import hashlib
 
 TESTS = [
-    ("Third-Party Integration: Exctraction (Collector)", "tests/tp_collector.csv", "expected/tp_collector.csv", "expected/tp_collector_alt.csv"),
-    ("Third-Party Integration: Exctraction (Classification)", "tests/tp_classification.csv", "expected/tp_classification.csv", "expected/tp_classification_alt.csv"),
+    ("Third-Party Integration: Extraction (Collector)", "tests/tp_collector.csv", "expected/tp_collector.csv", "expected/tp_collector_alt.csv"),
+    ("Third-Party Integration: Extraction (Classification)", "tests/tp_classification.csv", "expected/tp_classification.csv", "expected/tp_classification_alt.csv"),
     ("Third-Party Integration: Labelling", "tests/tp_final.csv", "expected/tp_final.csv", "expected/tp_final_alt.csv"),
     ("Third-Party Integration: Graph", "tests/tp_graph.png", "expected/tp_graph.png"),
     ("Privacy Analysis: Collection (C1-I1)", "../samples/WEB/GROK/GROK-A2-P1-T1-C1-S2-20260901/I1/collected.val", "expected/collected-C1-I1.val"),
