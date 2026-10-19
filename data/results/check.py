@@ -5,6 +5,8 @@ TESTS = [
     ("Third-Party Integration: Extraction (Classification)", "tests/tp_classification.csv", "expected/tp_classification.csv", "expected/tp_classification_alt.csv"),
     ("Third-Party Integration: Labelling", "tests/tp_final.csv", "expected/tp_final.csv", "expected/tp_final_alt.csv"),
     ("Third-Party Integration: Graph", "tests/tp_graph.png", "expected/tp_graph.png"),
+    ("Third-Party Integration: Real Graph - Browser", "tests/tp_real_graph_browser.png", "expected/tp_real_graph_browser.png"),
+    ("Third-Party Integration: Real Graph - Mobile", "tests/tp_real_graph_mobile.png", "expected/tp_real_graph_mobile.png"),
     ("Privacy Analysis: Collection (C1-I1)", "../samples/WEB/GROK/GROK-A2-P1-T1-C1-S2-20260901/I1/collected.val", "expected/collected-C1-I1.val"),
     ("Privacy Analysis: Collection (C1-I2)", "../samples/WEB/GROK/GROK-A2-P1-T1-C1-S2-20260901/I2/collected.val", "expected/collected-C1-I2.val"),
     ("Privacy Analysis: Collection (C2-I1)", "../samples/WEB/GROK/GROK-A2-P1-T1-C2-S2-20260901/I1/collected.val", "expected/collected-C2-I1.val"),

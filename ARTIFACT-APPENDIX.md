@@ -236,6 +236,19 @@ python graph.py
 
 The resulting graph is written to `data/results/tests/tp_graph.png`.
 
+##### Generating the graph from the actual study data
+
+The graph can also be generated from the data we produced during the original study:
+
+```bash
+# From the repository root
+cd tpintegration/real_graph
+# Generate the graph from the study data
+python3 graph.py
+```
+
+When we first processed the study data, our naming conventions were less consistent and harder to follow than the ones used in the pipeline above. This script adapts to those original conventions so it can read the study data as it was recorded. Had the study data been fed through the pipeline (`main.py extract`, `main.py label`, and `graph.py`), it would have produced the same graph.
+
 #### Experiment 2: Privacy Analysis
 
 - Time: 20 human-seconds + 25 compute-seconds
