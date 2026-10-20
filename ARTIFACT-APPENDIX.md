@@ -247,7 +247,9 @@ cd tpintegration/real_graph
 python3 graph.py
 ```
 
-When we first processed the study data, our naming conventions were less consistent and harder to follow than the ones used in the pipeline above. This script adapts to those original conventions so it can read the study data as it was recorded. Had the study data been fed through the pipeline (`main.py extract`, `main.py label`, and `graph.py`), it would have produced the same graph.
+During the study, when we processed the data, we used different and less consistent naming conventions than the ones used in the pipeline above. This script is adapted to those original names, so it reads the study data as we recorded it.
+
+If the study samples had gone through the entire pipeline above (`main.py extract`,`main.py label`, then `graph.py`), the same graph would have been produced.
 
 #### Experiment 2: Privacy Analysis
 
