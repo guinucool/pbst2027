@@ -199,6 +199,13 @@ HAR_ROOT_PATH = str(os.path.dirname(__file__)) + "/../data/samples"
 RESULTS_PATH = str(os.path.dirname(__file__)) + "/../data/results/tests"
 ```
 
+The root folder also provides a script, `run.py`, that runs all the steps below in sequence, going through each experiment in order. Its objective is to facilitate the use of these scripts. It pauses once after the extraction stage of Experiment 1 so that the domains can be labeled, in case the script is being used for original data, and at the end it offers to run the validity check, in case it was run with the provided samples.
+
+```bash
+# Run all the experiments step by step
+python run.py
+```
+
 *Disclaimer: The sample captures were collected specifically for these experiments and long after those used in the paper. Thus, their results are not representative of the main study's findings, but reflect the real ecosystem under the conditions and timestamps at which they were captured.*
 
 Experiment results can be verified against the expected outputs using:
