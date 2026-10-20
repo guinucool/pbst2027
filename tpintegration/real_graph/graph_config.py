@@ -25,10 +25,10 @@ POINT_COLOR = "#72728E"
 LINE_COLORS = {'dashed': "#ff4d4d51", 'solid': "#4545451F"}
 
 # The location where the evidence is saved.
-EVIDENCE_PATH = "../../data/evidence"
+EVIDENCE_PATH = str(os.path.dirname(__file__)) + "/../../data/evidence"
 
 # The location where the graphical results will be saved.
-RESULTS_PATH = "../../data/results/tests"
+RESULTS_PATH = str(os.path.dirname(__file__)) + "/../../data/results/tests"
 
 # The path to the final CSV file containing the classified third-party domains.
 TPDOMAINS_PATH = os.path.join(EVIDENCE_PATH, "labelled-domains.csv")

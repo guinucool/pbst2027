@@ -1,3 +1,4 @@
+from io_config import HAR_ROOT_PATH, RESULTS_PATH
 import json
 import os
 
@@ -7,9 +8,9 @@ FP_APIS_MD: str = str(os.path.dirname(__file__)) + "/input/potential_fingerprint
 # Cleaned apis file from markdown
 FP_APIS_CLEAN: str = str(os.path.dirname(__file__)) + "/input/fp-inspector_apis.txt"
 # Captures folder
-CAPTURES_FOLDER: str = str(os.path.dirname(__file__)) + "/../data/samples/"
+CAPTURES_FOLDER: str = HAR_ROOT_PATH
 # Output file
-FPRINTERS_FILE = str(os.path.dirname(__file__)) + "/../data/results/tests/fingerprinters.json"
+FPRINTERS_FILE = os.path.join(RESULTS_PATH, "fingerprinters.json")
 
 def extra_filter(api: str,file_path: str):
     """Filter called always to add especial cases, if returns false it is a false positive"""

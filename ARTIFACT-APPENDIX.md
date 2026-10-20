@@ -185,28 +185,32 @@ We embedded canary tokens in conversations shared through the providers' native 
 
 ### Experiments
 
-All experiment outputs are written to `data/results/tests/`, so that a reviewer's
-results can be compared against the expected outcomes in `data/results/expected/` without
-overwriting it.
+All scripts can be run from the root of the cloned repository, with the virtual environment active.
 
-Each script must be run from inside its own folder. The command blocks below
-therefore assume the shell starts at the root of the cloned repository, with the
-virtual environment active, and change into the relevant folder first.
+Each experiment has an `io_config.py` file that allows customizing where it reads its input and writes its output. By default, it analyzes the sample captures and saves results to `data/results/tests/`, so a reviewer's results can be compared against the expected outcomes in `data/results/expected/` without overwriting them.
+
+```python
+import os
+
+# The location of the HAR files collected from the AI service providers.
+HAR_ROOT_PATH = str(os.path.dirname(__file__)) + "/../data/samples"
+
+# The location where the results of the analysis will be saved.
+RESULTS_PATH = str(os.path.dirname(__file__)) + "/../data/results/tests"
+```
 
 *Disclaimer: The sample captures were collected specifically for these experiments and long after those used in the paper. Thus, their results are not representative of the main study's findings, but reflect the real ecosystem under the conditions and timestamps at which they were captured.*
 
 Experiment results can be verified against the expected outputs using:
 
 ```bash
-# Change directory to results
-cd data/results
 # Check the validity of the experiment outputs
-python check.py
+python data/results/check.py
 ```
 
 #### Experiment 1: Third-party Service Analysis
 
-- Time: 1 human-minutes + 10 compute-seconds
+- Time: 1 human-minute + 10 compute-seconds
 - Supports: [Main Result 1](#main-result-1-conversational-ai-services-integrate-third-party-tracking-analytics-advertising-and-attribution-infrastructures-across-their-web-and-mobile-clients) (§5)
 
 This experiment extracts third-party domains from the HAR captures and attributes them to organizations using a manual mapping. It runs in two stages: domain extraction followed by labeling.
@@ -214,12 +218,10 @@ This experiment extracts third-party domains from the HAR captures and attribute
 The extraction stage generates `tp_classification.csv` to facilitate manual classification. We provide a completed mapping for the sample captures in `tp_labelled.csv`, which is used during the labeling stage. Alternatively, `tp_classification.csv` can be used to create a custom `tp_labelled.csv` mapping.
 
 ```bash
-# Change directory to tpintegration
-cd tpintegration
 # Extract the 3rd-party domains
-python main.py extract
+python tpintegration/main.py extract
 # Label the domains
-python main.py label
+python tpintegration/main.py label
 ```
 
 The labeled domains are written to `data/results/tests/tp_final.csv`. Each domain is
@@ -231,7 +233,7 @@ The experiment also generates a graph connecting AI providers to the third-party
 
 ```bash
 # Generate the graph for integration analysis
-python graph.py
+python tpintegration/graph.py
 ```
 
 The resulting graph is written to `data/results/tests/tp_graph.png`.
@@ -241,15 +243,13 @@ The resulting graph is written to `data/results/tests/tp_graph.png`.
 The graph can also be generated from the data we produced during the original study:
 
 ```bash
-# From the repository root
-cd tpintegration/real_graph
 # Generate the graph from the study data
-python3 graph.py
+python tpintegration/real_graph/graph.py
 ```
 
 During the study, when we processed the data, we used different and less consistent naming conventions than the ones used in the pipeline above. This script is adapted to those original names, so it reads the study data as we recorded it.
 
-If the study samples had gone through the entire pipeline above (`main.py extract`,`main.py label`, then `graph.py`), the same graph would have been produced.
+If the study samples had gone through the entire pipeline above (`main.py extract`, `main.py label`, then `graph.py`), the same graph would have been produced.
 
 #### Experiment 2: Privacy Analysis
 
@@ -261,12 +261,10 @@ This experiment analyzes requests to the third parties identified in Experiment 
 It proceeds in two stages. First, it extracts automatically detectable identifiers, such as tracking cookies and hashes. It then combines them with the manually provided identifiers and conversation artifacts stored in `info.val` within each sample session folder to identify data disclosed to third parties.
 
 ```bash
-# Change directory to privacyanalysis
-cd privacyanalysis
 # Collect predictable identifiers
-python main.py collect
+python privacyanalysis/main.py collect
 # Inspect for dissemination
-python main.py hunt
+python privacyanalysis/main.py hunt
 ```
 
 The recovered artifacts and identifiers are written to `data/results/tests/pa_final.csv`,
@@ -284,10 +282,8 @@ FP-Inspector, i.e. those marked with an infinity ratio. Source:
 [FP-Inspector potential fingerprinting APIs](https://github.com/uiowa-irl/FP-Inspector/blob/master/Data/potential_fingerprinting_APIs.md).
 
 ```bash
-# Change directory to fingerprint
-cd fingerprint
 # Extract the fingerprinting APIs used
-python fingerprint.py
+python fingerprint/fingerprint.py
 ```
 
 The output is a JSON file in `data/results/tests/` containing every API searched

@@ -1,3 +1,4 @@
+from io_config import HAR_ROOT_PATH, RESULTS_PATH
 import os
 
 # Regex patterns matching known tracking-value formats found in cookies/params.
@@ -45,10 +46,6 @@ INTERACTION = {"1": "Normal", "2": "Share", "3": "Load"}
 # Column order for CSV files containing detected leaks to third-party domains,
 # and the experimental conditions under which they appeared.
 LEAKS = ['LLM', 'Organization', 'Domain', 'Path', 'Location', 'Name', 'Value', 'Account', 'Chat', 'Privacy', 'Consent', 'Interaction']
-
-# Filesystem locations for input samples and output result files.
-HAR_ROOT_PATH = '../data/samples'
-RESULTS_PATH = '../data/results/tests'
 
 # Specific file paths used for reading labelled/expected data and writing final results.
 LABELLED_FILE = os.path.join(RESULTS_PATH, 'tp_labelled.csv')

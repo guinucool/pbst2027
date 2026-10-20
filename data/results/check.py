@@ -1,4 +1,7 @@
 import hashlib
+import os
+
+START_DIR = str(os.path.dirname(__file__))
 
 TESTS = [
     ("Third-Party Integration: Extraction (Collector)", "tests/tp_collector.csv", "expected/tp_collector.csv", "expected/tp_collector_alt.csv"),
@@ -23,7 +26,7 @@ def calculate_md5(file_path):
     
     md5_hash = hashlib.md5()
 
-    with open(file_path, "rb") as f:
+    with open(os.path.join(START_DIR, file_path), "rb") as f:
         
         for chunk in iter(lambda: f.read(CHUNK_SIZE), b""):
             

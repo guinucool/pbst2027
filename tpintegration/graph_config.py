@@ -1,3 +1,4 @@
+from io_config import RESULTS_PATH
 import os
 
 # Human-readable labels for the consent-banner interaction codes.
@@ -23,9 +24,6 @@ CODOMAIN_PAD = 0.10
 # Colors used for plotting points and connecting lines.
 POINT_COLOR = "#72728E"
 LINE_COLORS = {'dashed': "#ff4d4d51", 'solid': "#4545451F"}
-
-# The location where the graphical results will be saved.
-RESULTS_PATH = "../data/results/tests"
 
 # The path to the final CSV file containing the classified third-party domains.
 TPDOMAINS_PATH = os.path.join(RESULTS_PATH, "tp_final.csv")

@@ -1,3 +1,4 @@
+from io_config import HAR_ROOT_PATH, RESULTS_PATH
 import os
 
 # Domains owned or operated by each AI service provider.
@@ -43,12 +44,6 @@ TP_DOMAIN_COLLECTOR = [
 
 # Column order for CSV files containing to be manually classified third-party domains.
 TP_DOMAIN_CLASSIFICATION = ["LLM", "ThirdParty_Domain", "ThirdParty_CNAME"]
-
-# The location of the HAR files collected from the AI service providers.
-HAR_ROOT_PATH = "../data/samples"
-
-# The location where the results of the analysis will be saved.
-RESULTS_PATH = "../data/results/tests"
 
 # The path to the CSV file containing the collected third-party domains.
 COLLECTOR_PATH = os.path.join(RESULTS_PATH, "tp_collector.csv")
